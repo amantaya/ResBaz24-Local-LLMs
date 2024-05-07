@@ -13,11 +13,11 @@ We will cover the following topics in this workshop:
 
 ## Timeline
 
-| Time        | Duration | Topic                                      |
-|-------------|----------|--------------------------------------------|
-| 0:00 - 0:05 | 5 Min    | Introduction to Large Language Models      |
-| 0:05 - 0:15 | 10 Min   | Types of Large Language Models             |
-| 0:15 - 0:25 | 10 Min   | Selecting a Large Language Model           |
-| 0:25 - 0:30 | 5 Min    | 5 Minute Break                             |
-| 0:30 - 0:45 | 15 Min   | Running Large Language Models Locally      | # This will be run through the terminal
-| 0:45 - 1:30 | 45 Min   | Using LLMs Programmatically through an API | # This will be run using R or Python
+| Time        | Duration | Topic                                                 |
+|-------------|----------|-------------------------------------------------------|
+| 0:00 - 0:05 | 5 Min    | Introduction to Large Language Models                 |
+| 0:05 - 0:15 | 10 Min   | Types of Large Language Models                        |
+| 0:15 - 0:25 | 10 Min   | Selecting a Large Language Model                      |
+| 0:25 - 0:30 | 5 Min    | 5 Minute Break                                        |
+| 0:30 - 0:45 | 15 Min   | Running Large Language Models Locally                 | # This will be run through the terminal
+| 0:45 - 1:30 | 45 Min   | Using LLMs Programmatically through an API - Locally! | # This will be run using R or Python
