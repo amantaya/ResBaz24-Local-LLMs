@@ -30,6 +30,10 @@ We will cover the following topics in this workshop:
 | 0:30 - 0:45 | 15 Min   | Running Large Language Models Locally                 |
 | 0:45 - 1:30 | 45 Min   | Using LLMs Programmatically through an API - Locally! |
 
+## Slides
+
+[Introduction to Large Language Models](https://amantaya.github.io/ResBaz24-Local-LLMs)
+
 ## Setup
 
 We will be using `ollama` which is a free to use executable (program)
