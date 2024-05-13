@@ -5,19 +5,67 @@ format: revealjs
 editor: visual
 ---
 
-## Quarto
+## What are Large Language Models?
 
-Quarto enables you to weave together content and executable code into a
-finished presentation. To learn more about Quarto presentations see
-<https://quarto.org/docs/presentations/>.
+Large Language Models (LLMs) are a subset of Deep Learning, which is a
+type of Machine Learning.
 
-## Bullets
+Machine Learning is sometimes used interchangeably with the term
+"Artifical Intelligence" (AI), however machine learning typically refers
+to algorithms that can learn patterns from data and make predictions
+based on that data. Machine Learning is a subset of AI, which is a
+broader field that includes other types of algorithms that can perform
+tasks that typically require human intelligence.
 
-When you click the **Render** button a document will be generated that
-includes:
+## What are Large Language Models?
 
--   Content authored with markdown
--   Output from executable code
+LLMs refer to general purpose models that can be **pre-trained** and the
+**fine-tuned** for specific tasks.
+
+LLMs have 3 main components:
+
+1. Large
+2. General Purpose
+3. Pre-trained and Fine-tuned
+
+## How "large" are LLMs?
+
+The size of LLMs is typically measured in the number of parameters they
+have.
+
+There are over 50 models > 1 billion parameters.^[https://matt-rickard.com/a-list-of-1-billion-parameter-llms]
+
+Here's a non-comprehensive list of some of the largest models:
+
+| Model | Parameters                  | Company | Open-Source? |
+|-------|-----------------------------|---------|--------------|
+| GPT3  | 175 billion                 | OpenAI  | No           |
+| GPT4  | 1.76\* trillion (estimated) | OpenAI  | No           |
+| llama3 | 70 billion | Meta (Facebook) | Yes* (8 billion only)|
+| PaLM 2 | 340 billion | Google | Yes |
+| mistral | 7 billion | Mistral AI | Yes |
+
+## General Purpose
+
+**General Purpose** means the model can be used to solve a wide variery of general laguage problems. 
+
+## Pre-trained
+
+**Pre-trained** means the model has been trained on a **large** amount
+of text data to solve common language problems, such as:
+
+-   text classification and generation
+-   question answering
+-   summarizing documents
+-   generating code
+-   translating languages
+
+## Fine-tuned
+
+**Fine-tuned** means the model has been trained on a **small** amount of data to solve a specific problem in different domains, such as:
+
+- 
+
 
 ## Code
 
