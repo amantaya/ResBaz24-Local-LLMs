@@ -173,6 +173,16 @@ Website: <https://ollama.com/>
 
 Website: <https://huggingface.co/>
 
+## Downloading and Running `ollama`
+
+1.  Download the `ollama` executable from the website
+2.  Run the executable in the terminal/shell with the name of the model
+    you want to run
+
+```shell
+ollama run llama3
+```
+
 ## Code
 
 When you click the **Render** button a presentation will be generated
