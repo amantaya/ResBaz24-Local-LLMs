@@ -70,11 +70,11 @@
     "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters\nThere are over 50 models &gt; 1 billion parameters.1\nTraining data is typically petabytes in size\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
   },
   {
-    "objectID": "Introduction-to-LLMs.html#general-purposek",
-    "href": "Introduction-to-LLMs.html#general-purposek",
+    "objectID": "Introduction-to-LLMs.html#general-purpose",
+    "href": "Introduction-to-LLMs.html#general-purpose",
     "title": "Introduction to Running LLMs - Locally!",
-    "section": "General PurposeK",
-    "text": "General PurposeK\nGeneral Purpose means the model can be used to solve a wide variety of general language problems."
+    "section": "General Purpose",
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems."
   },
   {
     "objectID": "Introduction-to-LLMs.html#pre-trained",
@@ -102,7 +102,49 @@
     "href": "Introduction-to-LLMs.html#types-of-llms",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Types of LLMs",
+    "text": "Types of LLMs\n\nGeneric Language Models - predict the next token/word base on the training data"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#types-of-llms-1",
+    "href": "Introduction-to-LLMs.html#types-of-llms-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Types of LLMs",
+    "text": "Types of LLMs\n\nGeneric Language Models - predict the next token/word base on the training data\nInstruction-Tuned - predict a response to instructions given in the input/prompt"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#types-of-llms-2",
+    "href": "Introduction-to-LLMs.html#types-of-llms-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Types of LLMs",
     "text": "Types of LLMs\n\nGeneric Language Models - predict the next token/word base on the training data\nInstruction-Tuned - predict a response to instructions given in the input/prompt\nDialouge-Tuned - type of Instruction-Tuned that peforms conversational question/answer response"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#selecting-a-model",
+    "href": "Introduction-to-LLMs.html#selecting-a-model",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Selecting a Model",
+    "text": "Selecting a Model\nConsider the following when selecting a model:\n\nSize - larger models typically perform better, but require more computational resources (GPU, memory, etc.)\nTask - some models are better suited for specific tasks (e.g. summarization, translation, question/answer)\nLicense - some models are proprietary and require a license"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#ollama",
+    "href": "Introduction-to-LLMs.html#ollama",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Ollama",
+    "text": "Ollama\n\nollama is an executable that allows you to run LLMs locally on your machine\nChoose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)\nEach model has an API that allows you to interact with the model programmatically\nFewer models than HuggingFace, but easier to use\n\nWebsite: https://ollama.com/"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#huggingface",
+    "href": "Introduction-to-LLMs.html#huggingface",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "HuggingFace",
+    "text": "HuggingFace\n\nHosts a huge variety of pre-trained models, including:\n\nLLMs\nImage Classification\nObject Detection\nText-to-Speech\n\nMost models use the transformers library in Python\nGenerally harder to use than ollama (especially for beginners)\n\nWebsite: https://huggingface.co/"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#downloading-and-running-ollama",
+    "href": "Introduction-to-LLMs.html#downloading-and-running-ollama",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Downloading and Running ollama",
+    "text": "Downloading and Running ollama\n\nDownload the ollama executable from the website\nRun the executable in the terminal/shell with the name of the model you want to run\n\nollama run llama3"
   },
   {
     "objectID": "Introduction-to-LLMs.html#code",

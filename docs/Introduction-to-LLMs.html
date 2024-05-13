@@ -29,6 +29,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -408,8 +473,8 @@ Andrew Antaya
 <li><p>Training data is typically petabytes in size</p></li>
 </ul>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>https://matt-rickard.com/a-list-of-1-billion-parameter-llms</p></li></ol></aside></section>
-<section id="general-purposek" class="slide level2">
-<h2>General PurposeK</h2>
+<section id="general-purpose" class="slide level2">
+<h2>General Purpose</h2>
 <p><strong><em>General Purpose</em></strong> means the model can be used to solve a wide variety of general language problems.</p>
 </section>
 <section id="pre-trained" class="slide level2">
@@ -425,7 +490,7 @@ Andrew Antaya
 </section>
 <section id="fine-tuned" class="slide level2">
 <h2>Fine-tuned</h2>
-<p><strong>Fine-tuned</strong> means the model has been trained on a <strong>small*</strong> amount of domain data to solve a specific problem in different domains, such as:</p>
+<p><strong><em>Fine-tuned</em></strong> means the model has been trained on a <strong>small*</strong> amount of domain data to solve a specific problem in different domains, such as:</p>
 <ul>
 <li>legal</li>
 <li>medical</li>
@@ -483,13 +548,65 @@ Andrew Antaya
 <section id="types-of-llms" class="slide level2">
 <h2>Types of LLMs</h2>
 <ul>
-<li><p><strong>Generic Language Models</strong> - predict the next token/word base on the training data</p></li>
-<li><p><strong>Instruction-Tuned</strong> - predict a response to instructions given in the input/prompt</p></li>
-<li><p><strong>Dialouge-Tuned</strong> - type of <em>Instruction-Tuned</em> that peforms conversational question/answer response</p></li>
+<li><strong>Generic Language Models</strong> - predict the next token/word base on the training data</li>
 </ul>
 </section>
-<section id="section" class="slide level2">
-<h2></h2>
+<section id="types-of-llms-1" class="slide level2">
+<h2>Types of LLMs</h2>
+<ul>
+<li><strong>Generic Language Models</strong> - predict the next token/word base on the training data</li>
+<li><strong>Instruction-Tuned</strong> - predict a response to instructions given in the input/prompt</li>
+</ul>
+</section>
+<section id="types-of-llms-2" class="slide level2">
+<h2>Types of LLMs</h2>
+<ul>
+<li><strong>Generic Language Models</strong> - predict the next token/word base on the training data</li>
+<li><strong>Instruction-Tuned</strong> - predict a response to instructions given in the input/prompt</li>
+<li><strong>Dialouge-Tuned</strong> - type of <em>Instruction-Tuned</em> that peforms conversational question/answer response</li>
+</ul>
+</section>
+<section id="selecting-a-model" class="slide level2">
+<h2>Selecting a Model</h2>
+<p>Consider the following when selecting a model:</p>
+<ul>
+<li><strong>Size</strong> - larger models typically perform better, but require more computational resources (GPU, memory, etc.)</li>
+<li><strong>Task</strong> - some models are better suited for specific tasks (e.g. summarization, translation, question/answer)</li>
+<li><strong>License</strong> - some models are proprietary and require a license</li>
+</ul>
+</section>
+<section id="ollama" class="slide level2">
+<h2>Ollama</h2>
+<ul>
+<li><p><code>ollama</code> is an executable that allows you to run LLMs locally on your machine</p></li>
+<li><p>Choose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)</p></li>
+<li><p>Each model has an API that allows you to interact with the model programmatically</p></li>
+<li><p>Fewer models than HuggingFace, but easier to use</p></li>
+</ul>
+<p>Website: <a href="https://ollama.com/" class="uri">https://ollama.com/</a></p>
+</section>
+<section id="huggingface" class="slide level2">
+<h2>HuggingFace</h2>
+<ul>
+<li><p>Hosts a huge variety of pre-trained models, including:</p>
+<ul>
+<li>LLMs</li>
+<li>Image Classification</li>
+<li>Object Detection</li>
+<li>Text-to-Speech</li>
+</ul></li>
+<li><p>Most models use the <a href="https://huggingface.co/docs/transformers/en/index">transformers</a> library in Python</p></li>
+<li><p>Generally harder to use than <code>ollama</code> (especially for beginners)</p></li>
+</ul>
+<p>Website: <a href="https://huggingface.co/" class="uri">https://huggingface.co/</a></p>
+</section>
+<section id="downloading-and-running-ollama" class="slide level2">
+<h2>Downloading and Running <code>ollama</code></h2>
+<ol type="1">
+<li>Download the <code>ollama</code> executable from the <a href="https://ollama.com/">website</a></li>
+<li>Run the executable in the terminal/shell with the name of the model you want to run</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>ollama run llama3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="code" class="slide level2">
 <h2>Code</h2>
