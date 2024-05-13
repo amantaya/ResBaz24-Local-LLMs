@@ -1,6 +1,8 @@
 # Introduction to Running Large Language Models Locally
 
-> \![Note\] Ironically, some of the content in this workshop is
+[![pages-build-deployment](https://github.com/amantaya/ResBaz24-Local-LLMs/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/amantaya/ResBaz24-Local-LLMs/actions/workflows/pages/pages-build-deployment)
+
+> [!Note] Ironically, some of the content in this workshop is
 > generated using large language models (i.e., GitHub CoPilot). Where
 > possible, I have tried to verify the information from an outside
 > source, that *hopefully* didn't get their information from a large
@@ -36,26 +38,23 @@ We will cover the following topics in this workshop:
 
 ## Setup
 
-We will be using `ollama` which is a free to use executable (program)
+We will be using `ollama` which is a free to use program
 that allows you to run large language models on your local machine. You
 can download it from [here](https://ollama.com).
 
 `ollama` is a command line tool that allows you to download and run LLMs
-locally on your machine.
-
-`ollama` is great tool for an introduction to LLMs because it greatly
-simplifies the process of running LLMs on your local machine. `ollama`
+locally on your machine. It is great tool for an introduction to LLMs because it greatly
+simplifies the process of running LLMs on your local machine as `ollama` 
 handles the downloading, installation, and running of LLMs for you.
-Generally, LLMs come with complex dependencies (e.g., packages), which
-can make setup a huge pain.
 
 Additionally, `ollama` runs LLMs on your machine with an Application
-Programming Interface (API). This means that you can use LLMs in your
+Programming Interface (API) already built into each model. 
+This means that you can use LLMs in your
 projects programmatically, through a programming language like R or
-Python. This simplifies *most* of the process for using LLMs for your
+Python. This simplifies the process of using LLMs for your
 projects.
 
-> \![Note\] `ollama` uses the graphics processing unit (GPU) on your
+> [!Note] `ollama` uses the graphics processing unit (GPU) on your
 > machine to run LLMs. This can be very computationally expensive and
 > can take a long time to run, especially if you have an older machine
 > and/or a weaker GPU.
