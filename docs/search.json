@@ -1,17 +1,45 @@
 [
   {
-    "objectID": "Introduction-to-LLMs.html#quarto",
-    "href": "Introduction-to-LLMs.html#quarto",
+    "objectID": "Introduction-to-LLMs.html#what-are-large-language-models",
+    "href": "Introduction-to-LLMs.html#what-are-large-language-models",
     "title": "Introduction to Local LLMs",
-    "section": "Quarto",
-    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+    "section": "What are Large Language Models?",
+    "text": "What are Large Language Models?\nLarge Language Models (LLMs) are a subset of Deep Learning, which is a type of Machine Learning.\nMachine Learning is sometimes used interchangeably with the term “Artifical Intelligence” (AI), however machine learning typically refers to algorithms that can learn patterns from data and make predictions based on that data. Machine Learning is a subset of AI, which is a broader field that includes other types of algorithms that can perform tasks that typically require human intelligence."
   },
   {
-    "objectID": "Introduction-to-LLMs.html#bullets",
-    "href": "Introduction-to-LLMs.html#bullets",
+    "objectID": "Introduction-to-LLMs.html#what-are-large-language-models-1",
+    "href": "Introduction-to-LLMs.html#what-are-large-language-models-1",
     "title": "Introduction to Local LLMs",
-    "section": "Bullets",
-    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+    "section": "What are Large Language Models?",
+    "text": "What are Large Language Models?\nLLMs refer to general purpose models that can be pre-trained and the fine-tuned for specific tasks.\nLLMs have 3 main components:\n\nLarge\nGeneral Purpose\nPre-trained and Fine-tuned"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#how-large-are-llms",
+    "href": "Introduction-to-LLMs.html#how-large-are-llms",
+    "title": "Introduction to Local LLMs",
+    "section": "How “large” are LLMs?",
+    "text": "How “large” are LLMs?\nThe size of LLMs is typically measured in the number of parameters they have.\nThere are over 50 models &gt; 1 billion parameters.1\nHere’s a non-comprehensive list of some of the largest models:\n\n\n\nModel\nParameters\nCompany\nOpen-Source?\n\n\n\n\nGPT3\n175 billion\nOpenAI\nNo\n\n\nGPT4\n1.76* trillion (estimated)\nOpenAI\nNo\n\n\nllama3\n70 billion\nMeta (Facebook)\nYes* (8 billion only)\n\n\nPaLM 2\n340 billion\nGoogle\nYes\n\n\nmistral\n7 billion\nMistral AI\nYes\n\n\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#general-purpose",
+    "href": "Introduction-to-LLMs.html#general-purpose",
+    "title": "Introduction to Local LLMs",
+    "section": "General Purpose",
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#pre-trained",
+    "href": "Introduction-to-LLMs.html#pre-trained",
+    "title": "Introduction to Local LLMs",
+    "section": "Pre-trained",
+    "text": "Pre-trained\nPre-trained means the model has been trained on a large amount of text data to solve common language problems, such as:\n\ntext classification and generation\nquestion answering\nsummarizing documents\ngenerating code\ntranslating languages"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#fine-tuned",
+    "href": "Introduction-to-LLMs.html#fine-tuned",
+    "title": "Introduction to Local LLMs",
+    "section": "Fine-tuned",
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nlegal\nmedical\nfinance\nscientific\n\n*small is relative to the amount of data used to pre-train the model."
   },
   {
     "objectID": "Introduction-to-LLMs.html#code",
