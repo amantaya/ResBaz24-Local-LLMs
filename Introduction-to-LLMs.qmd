@@ -85,7 +85,7 @@ text data to solve common language problems, such as:
 
 ## Fine-tuned
 
-**Fine-tuned** means the model has been trained on a **small\*** amount
+***Fine-tuned*** means the model has been trained on a **small\*** amount
 of domain data to solve a specific problem in different domains, such
 as:
 
