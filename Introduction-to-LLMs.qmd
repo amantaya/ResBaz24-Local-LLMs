@@ -146,6 +146,20 @@ Consider the following when selecting a model:
 
 Website: <https://ollama.com/>
 
+## HuggingFace
+
+-   Hosts a huge variety of pre-trained models, including:
+
+    -   LLMs
+    -   Image Classification
+    -   Object Detection
+    -   Text-to-Speech
+
+-   Most models use the [transformers](https://huggingface.co/docs/transformers/en/index) library in Python
+-   Generally harder to use than `ollama` (especially for beginners)
+
+Website: <https://huggingface.co/>
+
 ## Code
 
 When you click the **Render** button a presentation will be generated
