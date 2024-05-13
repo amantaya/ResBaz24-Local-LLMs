@@ -121,9 +121,18 @@ Here's a non-comprehensive list of some of the largest models:
 -   **Generic Language Models** - predict the next token/word base on
     the training data
 
+## Types of LLMs
+
+-   **Generic Language Models** - predict the next token/word base on
+    the training data
 -   **Instruction-Tuned** - predict a response to instructions given in
     the input/prompt
 
+## Types of LLMs
+-   **Generic Language Models** - predict the next token/word base on
+    the training data
+-   **Instruction-Tuned** - predict a response to instructions given in
+    the input/prompt
 -   **Dialouge-Tuned** - type of *Instruction-Tuned* that peforms
     conversational question/answer response
 
@@ -132,15 +141,16 @@ Here's a non-comprehensive list of some of the largest models:
 Consider the following when selecting a model:
 
 -   **Size** - larger models typically perform better, but require more
-    computational resources
--   **Task** - some models are better suited for specific tasks
--   **License** - some models are proprietary and require a license
+    computational resources (GPU, memory, etc.)
+-   **Task** - some models are better suited for specific tasks (e.g.
+    summarization, translation, question/answer)
+-   **License** - some models are proprietary and require a license 
 
 ## Ollama
 
 -   `ollama` is an executable that allows you to run LLMs locally on
     your machine
--   Choose from a variety of open-source models
+-   Choose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)
 -   Each model has an API that allows you to interact with the model
     programmatically
 
