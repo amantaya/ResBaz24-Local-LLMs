@@ -25,14 +25,7 @@
     "href": "Introduction-to-LLMs.html#how-large-are-llms",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "How “Large” are LLMs?",
-    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters they have.\nThere are over 50 models &gt; 1 billion parameters.1\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#example-llms",
-    "href": "Introduction-to-LLMs.html#example-llms",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Example LLMs",
-    "text": "Example LLMs\nHere’s a non-comprehensive list of some of the largest models:\n\n\n\nModel\nParameters\nCompany\nOpen-Source?\n\n\n\n\nGPT-3\n175 billion\nOpenAI\nNo\n\n\nGPT-4\n1.76 trillion 1\nOpenAI\nNo\n\n\nLlama3\n70 billion\nMeta (Facebook)\nYes\n\n\nPaLM 2\n340 billion\nGoogle\nYes\n\n\nmistral-7B\n7 billion\nMistral AI\nYes\n\n\n\nhttps://the-decoder.com/gpt-4-has-a-trillion-parameters/"
+    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters they have.\nTraining data is typically petabytes in size\nThere are over 50 models &gt; 1 billion parameters.1\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
   },
   {
     "objectID": "Introduction-to-LLMs.html#general-purpose",
@@ -54,6 +47,20 @@
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Fine-tuned",
     "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nlegal\nmedical\nfinance\nscientific\n\n*small is relative to the amount of data used to pre-train the model."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#example-llms",
+    "href": "Introduction-to-LLMs.html#example-llms",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Example LLMs",
+    "text": "Example LLMs\nHere’s a non-comprehensive list of some of the largest models:\n\n\n\nModel\nParameters\nCompany\nOpen-Source?\n\n\n\n\nGPT-4\n1.76 trillion 1\nOpenAI\nNo\n\n\nGPT-3\n175 billion\nOpenAI\nNo\n\n\nPaLM 2\n340 billion\nGoogle\nYes\n\n\nLlama 3\n70 billion\nMeta\nYes\n\n\nmistral-7B\n7 billion\nMistral AI\nYes\n\n\n\nhttps://the-decoder.com/gpt-4-has-a-trillion-parameters/"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#types-of-llms",
+    "href": "Introduction-to-LLMs.html#types-of-llms",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Types of LLMs",
+    "text": "Types of LLMs\n\nGeneric Language Models - predict the next token/word base on the training data\nInstruction-Tuned - predict a response to instructions given in the input/prompt\nDialouge-Tuned - type of Instruction-Tuned that peforms conversational question/answer response"
   },
   {
     "objectID": "Introduction-to-LLMs.html#code",

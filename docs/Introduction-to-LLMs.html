@@ -363,62 +363,17 @@ Andrew Antaya
 <h2>How “Large” are LLMs?</h2>
 <ul>
 <li><p>The size of LLMs is typically measured in the number of parameters they have.</p></li>
+<li><p>Training data is typically petabytes in size</p></li>
 <li><p>There are over 50 models &gt; 1 billion parameters.<sup>1</sup></p></li>
 </ul>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>https://matt-rickard.com/a-list-of-1-billion-parameter-llms</p></li></ol></aside></section>
-<section id="example-llms" class="slide level2">
-<h2>Example LLMs</h2>
-<p>Here’s a non-comprehensive list of some of the largest models:</p>
-<table>
-<thead>
-<tr class="header">
-<th>Model</th>
-<th>Parameters</th>
-<th>Company</th>
-<th>Open-Source?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>GPT-3</td>
-<td>175 billion</td>
-<td>OpenAI</td>
-<td>No</td>
-</tr>
-<tr class="even">
-<td>GPT-4</td>
-<td>1.76 trillion <sup>1</sup></td>
-<td>OpenAI</td>
-<td>No</td>
-</tr>
-<tr class="odd">
-<td>Llama3</td>
-<td>70 billion</td>
-<td>Meta (Facebook)</td>
-<td>Yes</td>
-</tr>
-<tr class="even">
-<td>PaLM 2</td>
-<td>340 billion</td>
-<td>Google</td>
-<td>Yes</td>
-</tr>
-<tr class="odd">
-<td>mistral-7B</td>
-<td>7 billion</td>
-<td>Mistral AI</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
-<aside><ol class="aside-footnotes"><li id="fn2"><p>https://the-decoder.com/gpt-4-has-a-trillion-parameters/</p></li></ol></aside></section>
 <section id="general-purpose" class="slide level2">
 <h2>General Purpose</h2>
-<p><strong>General Purpose</strong> means the model can be used to solve a wide variety of general language problems.</p>
+<p><strong><em>General Purpose</em></strong> means the model can be used to solve a wide variety of general language problems.</p>
 </section>
 <section id="pre-trained" class="slide level2">
 <h2>Pre-trained</h2>
-<p><strong>Pre-trained</strong> means the model has been trained on a large amount of text data to solve common language problems, such as:</p>
+<p><strong><em>Pre-trained</em></strong> means the model has been trained on a large amount of text data to solve common language problems, such as:</p>
 <ul>
 <li>text classification and generation</li>
 <li>question answering</li>
@@ -437,6 +392,63 @@ Andrew Antaya
 <li>scientific</li>
 </ul>
 <p><strong>*small</strong> is relative to the amount of data used to pre-train the model.</p>
+</section>
+<section id="example-llms" class="slide level2">
+<h2>Example LLMs</h2>
+<p>Here’s a non-comprehensive list of some of the largest models:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Parameters</th>
+<th>Company</th>
+<th>Open-Source?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GPT-4</td>
+<td>1.76 trillion <sup>1</sup></td>
+<td>OpenAI</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>GPT-3</td>
+<td>175 billion</td>
+<td>OpenAI</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>PaLM 2</td>
+<td>340 billion</td>
+<td>Google</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Llama 3</td>
+<td>70 billion</td>
+<td>Meta</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>mistral-7B</td>
+<td>7 billion</td>
+<td>Mistral AI</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>https://the-decoder.com/gpt-4-has-a-trillion-parameters/</p></li></ol></aside></section>
+<section id="types-of-llms" class="slide level2">
+<h2>Types of LLMs</h2>
+<ul>
+<li><p><strong>Generic Language Models</strong> - predict the next token/word base on the training data</p></li>
+<li><p><strong>Instruction-Tuned</strong> - predict a response to instructions given in the input/prompt</p></li>
+<li><p><strong>Dialouge-Tuned</strong> - type of <em>Instruction-Tuned</em> that peforms conversational question/answer response</p></li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
 </section>
 <section id="code" class="slide level2">
 <h2>Code</h2>
