@@ -131,8 +131,10 @@ Consider the following when selecting a model:
 
 ## Ollama
 
-- `ollama` is an executable that allows you to run LLMs locally on your
+-   `ollama` is an executable that allows you to run LLMs locally on your
   machine
+-   Options to choose from a variety of open-source models
+-   Each model has an API that allows you to interact with the model programmatically
 
 Website: [https://ollama.com/](https://ollama.com/)
 
