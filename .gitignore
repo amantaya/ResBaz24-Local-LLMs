@@ -4,3 +4,6 @@
 .idea
 
 /.quarto/
+
+# revealJS dependencies for rendering markdown to JS
+/site_libs/
