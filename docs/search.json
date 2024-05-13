@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Introduction-to-LLMs.html#quarto",
+    "href": "Introduction-to-LLMs.html#quarto",
+    "title": "Introduction to Local LLMs",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#bullets",
+    "href": "Introduction-to-LLMs.html#bullets",
+    "title": "Introduction to Local LLMs",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#code",
+    "href": "Introduction-to-LLMs.html#code",
+    "title": "Introduction to Local LLMs",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  }
+]
