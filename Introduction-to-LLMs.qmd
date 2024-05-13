@@ -43,12 +43,11 @@ Here's a non-comprehensive list of some of the largest models:
 | Model   | Parameters                  | Company         | Open-Source?           |
 |---------|-----------------------------|-----------------|------------------------|
 | GPT-3   | 175 billion                 | OpenAI          | No                     |
-| GPT-4   | 1.76\* trillion (estimated) | OpenAI          | No                     |
-| llama3  | 70 billion                  | Meta (Facebook) | Yes\* (8 billion only) |
+| GPT-4   | 1.76 trillion ^[https://the-decoder.com/gpt-4-has-a-trillion-parameters/] | OpenAI          | No                     |
+| Llama3  | 70 billion                  | Meta (Facebook) | Yes |
 | PaLM 2  | 340 billion                 | Google          | Yes                    |
 | mistral | 7 billion                   | Mistral AI      | Yes                    |
 
-: A Few LLMs {.striped .hover}
 
 ## General Purpose
 
@@ -57,7 +56,7 @@ of general language problems.
 
 ## Pre-trained
 
-**Pre-trained** means the model has been trained on a **large** amount
+**Pre-trained** means the model has been trained on a large amount
 of text data to solve common language problems, such as:
 
 -   text classification and generation
@@ -89,7 +88,5 @@ embed code like this:
 ```{r}
 1 + 1
 ```
-
-## References
 
 [^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
