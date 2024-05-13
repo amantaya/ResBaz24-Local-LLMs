@@ -34,28 +34,18 @@ format:
 -   The size of LLMs is typically measured in the number of parameters
     they have.
 
+-   Training data is typically petabytes in size
+
 -   There are over 50 models \> 1 billion parameters.[^1]
-
-## Example LLMs
-
-Here's a non-comprehensive list of some of the largest models:
-
-| Model      | Parameters         | Company    | Open-Source? |
-|------------|--------------------|------------|--------------|
-| GPT-4      | 1.76 trillion [^2] | OpenAI     | No           |
-| GPT-3      | 175 billion        | OpenAI     | No           |
-| PaLM 2     | 340 billion        | Google     | Yes          |
-| Llama 3    | 70 billion         | Meta       | Yes          |
-| mistral-7B | 7 billion          | Mistral AI | Yes          |
 
 ## General Purpose
 
-**General Purpose** means the model can be used to solve a wide variety
-of general language problems.
+***General Purpose*** means the model can be used to solve a wide
+variety of general language problems.
 
 ## Pre-trained
 
-**Pre-trained** means the model has been trained on a large amount of
+***Pre-trained*** means the model has been trained on a large amount of
 text data to solve common language problems, such as:
 
 -   text classification and generation
@@ -77,6 +67,31 @@ as:
 
 **\*small** is relative to the amount of data used to pre-train the
 model.
+
+## Example LLMs
+
+Here's a non-comprehensive list of some of the largest models:
+
+| Model      | Parameters         | Company    | Open-Source? |
+|------------|--------------------|------------|--------------|
+| GPT-4      | 1.76 trillion [^2] | OpenAI     | No           |
+| GPT-3      | 175 billion        | OpenAI     | No           |
+| PaLM 2     | 340 billion        | Google     | Yes          |
+| Llama 3    | 70 billion         | Meta       | Yes          |
+| mistral-7B | 7 billion          | Mistral AI | Yes          |
+
+## Types of LLMs
+
+-   **Generic Language Models** - predict the next token/word base on
+    the training data
+
+-   **Instruction-Tuned** - predict a response to instructions given in
+    the input/prompt
+
+-   **Dialouge-Tuned** - type of *Instruction-Tuned* that peforms
+    conversational question/answer response
+
+## 
 
 ## Code
 
