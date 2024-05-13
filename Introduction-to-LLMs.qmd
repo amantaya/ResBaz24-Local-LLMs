@@ -155,7 +155,10 @@ Website: <https://ollama.com/>
     -   Object Detection
     -   Text-to-Speech
 
--   Most models use the [transformers](https://huggingface.co/docs/transformers/en/index) library in Python
+-   Most models use the
+    [transformers](https://huggingface.co/docs/transformers/en/index)
+    library in Python
+
 -   Generally harder to use than `ollama` (especially for beginners)
 
 Website: <https://huggingface.co/>
