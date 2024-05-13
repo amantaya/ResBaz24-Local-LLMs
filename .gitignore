@@ -2,3 +2,5 @@
 
 # ignore PyCharm config files
 .idea
+
+/.quarto/
