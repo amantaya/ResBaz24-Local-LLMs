@@ -4,9 +4,9 @@
 
 **Ironically, some of the content in this workshop is generated using
 large language models (i.e., GitHub CoPilot). Where possible, I have
-tried to verify the information from an outside source, *hopefully* they
-didn't get their information from a large language model. All mistakes
-are my own.**
+tried to verify the information from an outside source and *hopefully*
+they didn't get their information from a large language model. All
+mistakes are my own.**
 
 This workshop will introduce you to running large language models (LLMs)
 on your local machine.
@@ -25,8 +25,7 @@ We will cover the following topics in this workshop:
 
 | Time        | Duration | Topic                                                 |
 |------------------|------------------|-------------------------------------|
-| 0:00 - 0:05 | 5 Min    | Introduction to Large Language Models                 |
-| 0:05 - 0:15 | 10 Min   | Types of Large Language Models                        |
+| 0:00 - 0:15 | 15 Min   | Introduction to Large Language Models                 |
 | 0:15 - 0:25 | 10 Min   | Selecting a Large Language Model                      |
 | 0:25 - 0:30 | 5 Min    | 5 Minute Break                                        |
 | 0:30 - 0:45 | 15 Min   | Running Large Language Models Locally                 |
