@@ -74,7 +74,7 @@ format: revealjs
 
 -   Training data is typically petabytes in size
 
-## General PurposeK
+## General Purpose
 
 ***General Purpose*** means the model can be used to solve a wide
 variety of general language problems.
