@@ -150,9 +150,13 @@ Consider the following when selecting a model:
 
 -   `ollama` is an executable that allows you to run LLMs locally on
     your machine
+    
 -   Choose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)
+
 -   Each model has an API that allows you to interact with the model
     programmatically
+
+-   Fewer models than HuggingFace, but easier to use
 
 Website: <https://ollama.com/>
 
@@ -175,7 +179,7 @@ Website: <https://huggingface.co/>
 
 ## Downloading and Running `ollama`
 
-1.  Download the `ollama` executable from the website
+1.  Download the `ollama` executable from the [website](https://ollama.com/)
 2.  Run the executable in the terminal/shell with the name of the model
     you want to run
 
