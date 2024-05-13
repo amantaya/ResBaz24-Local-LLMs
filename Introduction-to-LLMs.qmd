@@ -1,29 +1,59 @@
 ---
 title: "Introduction to Running LLMs - Locally!"
 author: "Andrew Antaya"
-format: 
-  revealjs:
-    theme: dark
+format: revealjs
 ---
 
 ## What are Large Language Models?
 
--   Large Language Models (LLMs) are a subset of **Deep Learning**,
-    which is a type of **Machine Learning**.
--   LLMs refer to *general purpose* models that can be **pre-trained**
-    and the **fine-tuned** for specific tasks.
+- Large Language Models (LLMs) are a subset of **Deep Learning**,
+  which is a type of **Machine Learning**.
 
 ## Machine Learning vs. Artificial Intelligence?
 
--   **Machine Learning** is sometimes used interchangeably with the term
-    **Artifical Intelligence (AI)**, however machine learning typically
+-   ***Machine Learning*** is sometimes used interchangeably with the term
+    ***Artificial Intelligence*** **(AI)**, however machine learning typically
     refers to algorithms that can learn patterns from data and make
     predictions based on that data.
--   **Machine Learning** is a subset of AI, which is a broader field
+    
+## Machine Learning vs. Artificial Intelligence?
+
+-   ***Machine Learning*** is sometimes used interchangeably with the term
+    ***Artificial Intelligence*** **(AI)**, however machine learning typically
+    refers to algorithms that can learn patterns from data and make
+    predictions based on that data.
+-   ***Machine Learning*** is a subset of **AI**, which is a broader field
     that includes other types of algorithms that can perform tasks that
     typically require human intelligence.
 
-## 3 Main Components of LLMs
+## What are Large Language Models?
+
+- LLMs refer to *general purpose* models that can be ***pre-trained***
+  and the ***fine-tuned*** for specific tasks.
+
+## Why LLMs Are a Hot Topic
+
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018 
+
+## Why LLMs Are a Hot Topic
+
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018 
+-   Perform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)
+
+## Why LLMs Are a Hot Topic
+
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018 
+-   Perform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)
+-   Can be fine-tuned to solve specific problems in different domains
+
+## Why LLMs Are a Hot Topic
+
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018 
+-   Perform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)
+-   Can be fine-tuned to solve specific problems in different domains
+-   Recent software innovations (e.g., Transformers) and computational improvements have made training on vast data sets possible
+
+## 3 Main Characteristics of LLMs
 
 1.  Large
 2.  General Purpose
@@ -32,13 +62,12 @@ format:
 ## How "Large" are LLMs?
 
 -   The size of LLMs is typically measured in the number of parameters
-    they have.
-
--   Training data is typically petabytes in size
 
 -   There are over 50 models \> 1 billion parameters.[^1]
 
-## General Purpose
+-   Training data is typically petabytes in size
+
+## General PurposeK
 
 ***General Purpose*** means the model can be used to solve a wide
 variety of general language problems.
