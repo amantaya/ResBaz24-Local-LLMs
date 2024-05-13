@@ -6,52 +6,59 @@ format: revealjs
 
 ## What are Large Language Models?
 
-- Large Language Models (LLMs) are a subset of **Deep Learning**,
-  which is a type of **Machine Learning**.
+-   Large Language Models (LLMs) are a subset of **Deep Learning**,
+    which is a type of **Machine Learning**.
 
 ## Machine Learning vs. Artificial Intelligence?
 
--   ***Machine Learning*** is sometimes used interchangeably with the term
-    ***Artificial Intelligence*** **(AI)**, however machine learning typically
-    refers to algorithms that can learn patterns from data and make
-    predictions based on that data.
-    
+-   ***Machine Learning*** is sometimes used interchangeably with the
+    term ***Artificial Intelligence*** **(AI)**, however machine
+    learning typically refers to algorithms that can learn patterns from
+    data and make predictions based on that data.
+
 ## Machine Learning vs. Artificial Intelligence?
 
--   ***Machine Learning*** is sometimes used interchangeably with the term
-    ***Artificial Intelligence*** **(AI)**, however machine learning typically
-    refers to algorithms that can learn patterns from data and make
-    predictions based on that data.
--   ***Machine Learning*** is a subset of **AI**, which is a broader field
-    that includes other types of algorithms that can perform tasks that
-    typically require human intelligence.
+-   ***Machine Learning*** is sometimes used interchangeably with the
+    term ***Artificial Intelligence*** **(AI)**, however machine
+    learning typically refers to algorithms that can learn patterns from
+    data and make predictions based on that data.
+-   ***Machine Learning*** is a subset of **AI**, which is a broader
+    field that includes other types of algorithms that can perform tasks
+    that typically require human intelligence.
 
 ## What are Large Language Models?
 
-- LLMs refer to *general purpose* models that can be ***pre-trained***
-  and the ***fine-tuned*** for specific tasks.
+-   LLMs refer to *general purpose* models that can be ***pre-trained***
+    and the ***fine-tuned*** for specific tasks.
 
 ## Why LLMs Are a Hot Topic
 
--   Relatively new - GPT-1 (117 million parameters) was released in 2018 
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018
 
 ## Why LLMs Are a Hot Topic
 
--   Relatively new - GPT-1 (117 million parameters) was released in 2018 
--   Perform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018
+-   Perform well on wide-variety of language tasks that have
+    traditionally been difficult for computers to solve (e.g. question
+    answering, summarization, translation)
 
 ## Why LLMs Are a Hot Topic
 
--   Relatively new - GPT-1 (117 million parameters) was released in 2018 
--   Perform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018
+-   Perform well on wide-variety of language tasks that have
+    traditionally been difficult for computers to solve (e.g. question
+    answering, summarization, translation)
 -   Can be fine-tuned to solve specific problems in different domains
 
 ## Why LLMs Are a Hot Topic
 
--   Relatively new - GPT-1 (117 million parameters) was released in 2018 
--   Perform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)
+-   Relatively new - GPT-1 (117 million parameters) was released in 2018
+-   Perform well on wide-variety of language tasks that have
+    traditionally been difficult for computers to solve (e.g. question
+    answering, summarization, translation)
 -   Can be fine-tuned to solve specific problems in different domains
--   Recent software innovations (e.g., Transformers) and computational improvements have made training on vast data sets possible
+-   Recent software innovations (e.g., Transformers) and computational
+    improvements have made training on vast data sets possible
 
 ## 3 Main Characteristics of LLMs
 
@@ -85,9 +92,9 @@ text data to solve common language problems, such as:
 
 ## Fine-tuned
 
-***Fine-tuned*** means the model has been trained on a **small\*** amount
-of domain data to solve a specific problem in different domains, such
-as:
+***Fine-tuned*** means the model has been trained on a **small\***
+amount of domain data to solve a specific problem in different domains,
+such as:
 
 -   legal
 -   medical
@@ -131,12 +138,13 @@ Consider the following when selecting a model:
 
 ## Ollama
 
--   `ollama` is an executable that allows you to run LLMs locally on your
-  machine
--   Options to choose from a variety of open-source models
--   Each model has an API that allows you to interact with the model programmatically
+-   `ollama` is an executable that allows you to run LLMs locally on
+    your machine
+-   Choose from a variety of open-source models
+-   Each model has an API that allows you to interact with the model
+    programmatically
 
-Website: [https://ollama.com/](https://ollama.com/)
+Website: <https://ollama.com/>
 
 ## Code
 
