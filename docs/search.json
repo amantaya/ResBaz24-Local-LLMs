@@ -4,35 +4,77 @@
     "href": "Introduction-to-LLMs.html#what-are-large-language-models",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "What are Large Language Models?",
-    "text": "What are Large Language Models?\n\nLarge Language Models (LLMs) are a subset of Deep Learning, which is a type of Machine Learning.\nLLMs refer to general purpose models that can be pre-trained and the fine-tuned for specific tasks."
+    "text": "What are Large Language Models?\n\nLarge Language Models (LLMs) are a subset of Deep Learning, which is a type of Machine Learning."
   },
   {
     "objectID": "Introduction-to-LLMs.html#machine-learning-vs.-artificial-intelligence",
     "href": "Introduction-to-LLMs.html#machine-learning-vs.-artificial-intelligence",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Machine Learning vs. Artificial Intelligence?",
-    "text": "Machine Learning vs. Artificial Intelligence?\n\nMachine Learning is sometimes used interchangeably with the term Artifical Intelligence (AI), however machine learning typically refers to algorithms that can learn patterns from data and make predictions based on that data.\nMachine Learning is a subset of AI, which is a broader field that includes other types of algorithms that can perform tasks that typically require human intelligence."
+    "text": "Machine Learning vs. Artificial Intelligence?\n\nMachine Learning is sometimes used interchangeably with the term Artificial Intelligence (AI), however machine learning typically refers to algorithms that can learn patterns from data and make predictions based on that data."
   },
   {
-    "objectID": "Introduction-to-LLMs.html#main-components-of-llms",
-    "href": "Introduction-to-LLMs.html#main-components-of-llms",
+    "objectID": "Introduction-to-LLMs.html#machine-learning-vs.-artificial-intelligence-1",
+    "href": "Introduction-to-LLMs.html#machine-learning-vs.-artificial-intelligence-1",
     "title": "Introduction to Running LLMs - Locally!",
-    "section": "3 Main Components of LLMs",
-    "text": "3 Main Components of LLMs\n\nLarge\nGeneral Purpose\nPre-trained and Fine-tuned"
+    "section": "Machine Learning vs. Artificial Intelligence?",
+    "text": "Machine Learning vs. Artificial Intelligence?\n\nMachine Learning is sometimes used interchangeably with the term Artificial Intelligence (AI), however machine learning typically refers to algorithms that can learn patterns from data and make predictions based on that data.\nMachine Learning is a subset of AI, which is a broader field that includes other types of algorithms that can perform tasks that typically require human intelligence."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#what-are-large-language-models-1",
+    "href": "Introduction-to-LLMs.html#what-are-large-language-models-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "What are Large Language Models?",
+    "text": "What are Large Language Models?\n\nLLMs refer to general purpose models that can be pre-trained and the fine-tuned for specific tasks."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic",
+    "href": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why LLMs Are a Hot Topic",
+    "text": "Why LLMs Are a Hot Topic\n\nRelatively new - GPT-1 (117 million parameters) was released in 2018"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic-1",
+    "href": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why LLMs Are a Hot Topic",
+    "text": "Why LLMs Are a Hot Topic\n\nRelatively new - GPT-1 (117 million parameters) was released in 2018\nPerform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic-2",
+    "href": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why LLMs Are a Hot Topic",
+    "text": "Why LLMs Are a Hot Topic\n\nRelatively new - GPT-1 (117 million parameters) was released in 2018\nPerform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)\nCan be fine-tuned to solve specific problems in different domains"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic-3",
+    "href": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic-3",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why LLMs Are a Hot Topic",
+    "text": "Why LLMs Are a Hot Topic\n\nRelatively new - GPT-1 (117 million parameters) was released in 2018\nPerform well on wide-variety of language tasks that have traditionally been difficult for computers to solve (e.g. question answering, summarization, translation)\nCan be fine-tuned to solve specific problems in different domains\nRecent software innovations (e.g., Transformers) and computational improvements have made training on vast data sets possible"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#main-characteristics-of-llms",
+    "href": "Introduction-to-LLMs.html#main-characteristics-of-llms",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "3 Main Characteristics of LLMs",
+    "text": "3 Main Characteristics of LLMs\n\nLarge\nGeneral Purpose\nPre-trained and Fine-tuned"
   },
   {
     "objectID": "Introduction-to-LLMs.html#how-large-are-llms",
     "href": "Introduction-to-LLMs.html#how-large-are-llms",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "How “Large” are LLMs?",
-    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters they have.\nTraining data is typically petabytes in size\nThere are over 50 models &gt; 1 billion parameters.1\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
+    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters\nThere are over 50 models &gt; 1 billion parameters.1\nTraining data is typically petabytes in size\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
   },
   {
-    "objectID": "Introduction-to-LLMs.html#general-purpose",
-    "href": "Introduction-to-LLMs.html#general-purpose",
+    "objectID": "Introduction-to-LLMs.html#general-purposek",
+    "href": "Introduction-to-LLMs.html#general-purposek",
     "title": "Introduction to Running LLMs - Locally!",
-    "section": "General Purpose",
-    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems."
+    "section": "General PurposeK",
+    "text": "General PurposeK\nGeneral Purpose means the model can be used to solve a wide variety of general language problems."
   },
   {
     "objectID": "Introduction-to-LLMs.html#pre-trained",
