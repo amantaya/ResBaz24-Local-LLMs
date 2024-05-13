@@ -43,3 +43,7 @@ Additionally, `ollama` runs LLMs on your machine with an Application Programming
 >![Note]
 >`ollama` uses the graphics processing unit (GPU) on your machine to run LLMs. This
 can be very computationally expensive and can take a long time to run, especially if you have an older machine and/or a weaker GPU.
+
+## Additional Resources
+
+-   [HuggingFace](https://huggingface.co/) - a huge collection of all types of AI models.
