@@ -47,7 +47,7 @@ Here's a non-comprehensive list of some of the largest models:
 
 ## General Purpose
 
-**General Purpose** means the model can be used to solve a wide variery of general laguage problems. 
+**General Purpose** means the model can be used to solve a wide variety of general language problems. 
 
 ## Pre-trained
 
@@ -62,10 +62,14 @@ of text data to solve common language problems, such as:
 
 ## Fine-tuned
 
-**Fine-tuned** means the model has been trained on a **small** amount of data to solve a specific problem in different domains, such as:
+**Fine-tuned** means the model has been trained on a **small\*** amount of domain data to solve a specific problem in different domains, such as:
 
-- 
+-   legal
+-   medical
+-   finance
+-   scientific
 
+**\*small** is relative to the amount of data used to pre-train the model.
 
 ## Code
 
