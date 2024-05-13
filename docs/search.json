@@ -24,8 +24,8 @@
     "objectID": "Introduction-to-LLMs.html#how-large-are-llms",
     "href": "Introduction-to-LLMs.html#how-large-are-llms",
     "title": "Introduction to Running LLMs - Locally!",
-    "section": "How “large” are LLMs?",
-    "text": "How “large” are LLMs?\nThe size of LLMs is typically measured in the number of parameters they have.\nThere are over 50 models &gt; 1 billion parameters.1\nHere’s a non-comprehensive list of some of the largest models:\n\n\n\nModel\nParameters\nCompany\nOpen-Source?\n\n\n\n\nGPT3\n175 billion\nOpenAI\nNo\n\n\nGPT4\n1.76* trillion (estimated)\nOpenAI\nNo\n\n\nllama3\n70 billion\nMeta (Facebook)\nYes* (8 billion only)\n\n\nPaLM 2\n340 billion\nGoogle\nYes\n\n\nmistral\n7 billion\nMistral AI\nYes\n\n\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
+    "section": "How “Large” are LLMs?",
+    "text": "How “Large” are LLMs?\nThe size of LLMs is typically measured in the number of parameters they have.\nThere are over 50 models &gt; 1 billion parameters.1\nHere’s a non-comprehensive list of some of the largest models:\n\n\n\n\n\n\n\n\n\nModel\nParameters\nCompany\nOpen-Source?\n\n\n\n\nGPT-3\n175 billion\nOpenAI\nNo\n\n\nGPT-4\n1.76* trillion (estimated)\nOpenAI\nNo\n\n\nllama3\n70 billion\nMeta (Facebook)\nYes* (8 billion only)\n\n\nPaLM 2\n340 billion\nGoogle\nYes\n\n\nmistral\n7 billion\nMistral AI\nYes\n\n\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
   },
   {
     "objectID": "Introduction-to-LLMs.html#general-purpose",
@@ -54,5 +54,12 @@
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Code",
     "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#references",
+    "href": "Introduction-to-LLMs.html#references",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "References",
+    "text": "References"
   }
 ]
