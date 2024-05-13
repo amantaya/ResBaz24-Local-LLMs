@@ -32,7 +32,7 @@
     "href": "Introduction-to-LLMs.html#example-llms",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Example LLMs",
-    "text": "Example LLMs\nHere’s a non-comprehensive list of some of the largest models:\n\nA Few LLMs\n\n\n\n\n\n\n\n\nModel\nParameters\nCompany\nOpen-Source?\n\n\n\n\nGPT-3\n175 billion\nOpenAI\nNo\n\n\nGPT-4\n1.76* trillion (estimated)\nOpenAI\nNo\n\n\nllama3\n70 billion\nMeta (Facebook)\nYes* (8 billion only)\n\n\nPaLM 2\n340 billion\nGoogle\nYes\n\n\nmistral\n7 billion\nMistral AI\nYes"
+    "text": "Example LLMs\nHere’s a non-comprehensive list of some of the largest models:\n\n\n\nModel\nParameters\nCompany\nOpen-Source?\n\n\n\n\nGPT-3\n175 billion\nOpenAI\nNo\n\n\nGPT-4\n1.76 trillion 1\nOpenAI\nNo\n\n\nLlama3\n70 billion\nMeta (Facebook)\nYes\n\n\nPaLM 2\n340 billion\nGoogle\nYes\n\n\nmistral-7B\n7 billion\nMistral AI\nYes\n\n\n\nhttps://the-decoder.com/gpt-4-has-a-trillion-parameters/"
   },
   {
     "objectID": "Introduction-to-LLMs.html#general-purpose",
@@ -61,12 +61,5 @@
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Code",
     "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#references",
-    "href": "Introduction-to-LLMs.html#references",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "References",
-    "text": "References"
   }
 ]
