@@ -7,47 +7,48 @@ editor: visual
 
 ## What are Large Language Models?
 
--   Large Language Models (LLMs) are a subset of **Deep Learning**, which is a
-type of **Machine Learning**.
--   LLMs refer to _general purpose_ models that can be **pre-trained** and the
-**fine-tuned** for specific tasks.
+-   Large Language Models (LLMs) are a subset of **Deep Learning**,
+    which is a type of **Machine Learning**.
+-   LLMs refer to *general purpose* models that can be **pre-trained**
+    and the **fine-tuned** for specific tasks.
 
 ## Machine Learning vs. Artificial Intelligence?
 
 -   **Machine Learning** is sometimes used interchangeably with the term
-**Artifical Intelligence** (AI), however machine learning typically refers
-to algorithms that can learn patterns from data and make predictions
-based on that data. 
--   Machine Learning is a subset of AI, which is a
-broader field that includes other types of algorithms that can perform
-tasks that typically require human intelligence.
+    **Artifical Intelligence (AI)**, however machine learning typically
+    refers to algorithms that can learn patterns from data and make
+    predictions based on that data.
+-   **Machine Learning** is a subset of AI, which is a broader field
+    that includes other types of algorithms that can perform tasks that
+    typically require human intelligence.
 
 ## 3 Main Components of LLMs
 
-1. Large
-2. General Purpose
-3. Pre-trained and Fine-tuned
+1.  Large
+2.  General Purpose
+3.  Pre-trained and Fine-tuned
 
 ## How "large" are LLMs?
 
 The size of LLMs is typically measured in the number of parameters they
 have.
 
-There are over 50 models > 1 billion parameters.^[https://matt-rickard.com/a-list-of-1-billion-parameter-llms]
+There are over 50 models \> 1 billion parameters.[^1]
 
 Here's a non-comprehensive list of some of the largest models:
 
-| Model | Parameters                  | Company | Open-Source? |
-|-------|-----------------------------|---------|--------------|
-| GPT3  | 175 billion                 | OpenAI  | No           |
-| GPT4  | 1.76\* trillion (estimated) | OpenAI  | No           |
-| llama3 | 70 billion | Meta (Facebook) | Yes* (8 billion only)|
-| PaLM 2 | 340 billion | Google | Yes |
-| mistral | 7 billion | Mistral AI | Yes |
+| Model   | Parameters                  | Company         | Open-Source?           |
+|---------|-----------------------------|-----------------|------------------------|
+| GPT-3   | 175 billion                 | OpenAI          | No                     |
+| GPT-4   | 1.76\* trillion (estimated) | OpenAI          | No                     |
+| llama3  | 70 billion                  | Meta (Facebook) | Yes\* (8 billion only) |
+| PaLM 2  | 340 billion                 | Google          | Yes                    |
+| mistral | 7 billion                   | Mistral AI      | Yes                    |
 
 ## General Purpose
 
-**General Purpose** means the model can be used to solve a wide variety of general language problems. 
+**General Purpose** means the model can be used to solve a wide variety
+of general language problems.
 
 ## Pre-trained
 
@@ -62,14 +63,17 @@ of text data to solve common language problems, such as:
 
 ## Fine-tuned
 
-**Fine-tuned** means the model has been trained on a **small\*** amount of domain data to solve a specific problem in different domains, such as:
+**Fine-tuned** means the model has been trained on a **small\*** amount
+of domain data to solve a specific problem in different domains, such
+as:
 
 -   legal
 -   medical
 -   finance
 -   scientific
 
-**\*small** is relative to the amount of data used to pre-train the model.
+**\*small** is relative to the amount of data used to pre-train the
+model.
 
 ## Code
 
@@ -80,3 +84,7 @@ embed code like this:
 ```{r}
 1 + 1
 ```
+
+## References
+
+[^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
