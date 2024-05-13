@@ -1,0 +1,4 @@
+.Rproj.user
+
+# ignore PyCharm config files
+.idea
