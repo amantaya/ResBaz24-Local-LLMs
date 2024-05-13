@@ -31,8 +31,8 @@ format:
 
 ## How "Large" are LLMs?
 
--   The size of LLMs is typically measured in the number of parameters they
-have.
+-   The size of LLMs is typically measured in the number of parameters
+    they have.
 
 -   There are over 50 models \> 1 billion parameters.[^1]
 
@@ -40,14 +40,13 @@ have.
 
 Here's a non-comprehensive list of some of the largest models:
 
-| Model   | Parameters                  | Company         | Open-Source?           |
-|---------|-----------------------------|-----------------|------------------------|
-| GPT-3   | 175 billion                 | OpenAI          | No                     |
-| GPT-4   | 1.76 trillion ^[https://the-decoder.com/gpt-4-has-a-trillion-parameters/] | OpenAI          | No                     |
-| Llama3  | 70 billion                  | Meta (Facebook) | Yes |
-| PaLM 2  | 340 billion                 | Google          | Yes                    |
-| mistral | 7 billion                   | Mistral AI      | Yes                    |
-
+| Model      | Parameters         | Company         | Open-Source? |
+|------------|--------------------|-----------------|--------------|
+| GPT-3      | 175 billion        | OpenAI          | No           |
+| GPT-4      | 1.76 trillion [^2] | OpenAI          | No           |
+| Llama3     | 70 billion         | Meta (Facebook) | Yes          |
+| PaLM 2     | 340 billion        | Google          | Yes          |
+| mistral-7B | 7 billion          | Mistral AI      | Yes          |
 
 ## General Purpose
 
@@ -56,8 +55,8 @@ of general language problems.
 
 ## Pre-trained
 
-**Pre-trained** means the model has been trained on a large amount
-of text data to solve common language problems, such as:
+**Pre-trained** means the model has been trained on a large amount of
+text data to solve common language problems, such as:
 
 -   text classification and generation
 -   question answering
@@ -90,3 +89,5 @@ embed code like this:
 ```
 
 [^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
+
+[^2]: https://the-decoder.com/gpt-4-has-a-trillion-parameters/
