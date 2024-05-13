@@ -120,7 +120,21 @@ Here's a non-comprehensive list of some of the largest models:
 -   **Dialouge-Tuned** - type of *Instruction-Tuned* that peforms
     conversational question/answer response
 
-## 
+## Selecting a Model
+
+Consider the following when selecting a model:
+
+-   **Size** - larger models typically perform better, but require more
+    computational resources
+-   **Task** - some models are better suited for specific tasks
+-   **License** - some models are proprietary and require a license
+
+## Ollama
+
+- `ollama` is an executable that allows you to run LLMs locally on your
+  machine
+
+Website: [https://ollama.com/](https://ollama.com/)
 
 ## Code
 
