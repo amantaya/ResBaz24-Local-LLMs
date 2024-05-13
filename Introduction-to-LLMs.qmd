@@ -1,8 +1,9 @@
 ---
 title: "Introduction to Running LLMs - Locally!"
 author: "Andrew Antaya"
-format: revealjs
-editor: visual
+format: 
+  revealjs:
+    theme: dark
 ---
 
 ## What are Large Language Models?
@@ -28,12 +29,14 @@ editor: visual
 2.  General Purpose
 3.  Pre-trained and Fine-tuned
 
-## How "large" are LLMs?
+## How "Large" are LLMs?
 
-The size of LLMs is typically measured in the number of parameters they
+-   The size of LLMs is typically measured in the number of parameters they
 have.
 
-There are over 50 models \> 1 billion parameters.[^1]
+-   There are over 50 models \> 1 billion parameters.[^1]
+
+## Example LLMs
 
 Here's a non-comprehensive list of some of the largest models:
 
@@ -44,6 +47,8 @@ Here's a non-comprehensive list of some of the largest models:
 | llama3  | 70 billion                  | Meta (Facebook) | Yes\* (8 billion only) |
 | PaLM 2  | 340 billion                 | Google          | Yes                    |
 | mistral | 7 billion                   | Mistral AI      | Yes                    |
+
+: A Few LLMs {.striped .hover}
 
 ## General Purpose
 
