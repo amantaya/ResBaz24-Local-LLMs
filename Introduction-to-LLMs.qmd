@@ -302,7 +302,7 @@ We will use an R script to interact with the `ollama` API.
 
 ## Link to R Script
 
-
+The R script can be found [here](R/example-api-request.R).
 
 [^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
 
