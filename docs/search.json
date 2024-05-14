@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "Introduction-to-LLMs.html#what-are-large-language-models",
-    "href": "Introduction-to-LLMs.html#what-are-large-language-models",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "What are Large Language Models?",
-    "text": "What are Large Language Models?\n\nLarge Language Models (LLMs) are a subset of Deep Learning, which is a type of Machine Learning."
-  },
-  {
     "objectID": "Introduction-to-LLMs.html#machine-learning-vs.-artificial-intelligence",
     "href": "Introduction-to-LLMs.html#machine-learning-vs.-artificial-intelligence",
     "title": "Introduction to Running LLMs - Locally!",
@@ -21,11 +14,25 @@
     "text": "Machine Learning vs. Artificial Intelligence?\n\nMachine Learning is sometimes used interchangeably with the term Artificial Intelligence (AI), however machine learning typically refers to algorithms that can learn patterns from data and make predictions based on that data.\nMachine Learning is a subset of AI, which is a broader field that includes other types of algorithms that can perform tasks that typically require human intelligence."
   },
   {
+    "objectID": "Introduction-to-LLMs.html#what-are-large-language-models",
+    "href": "Introduction-to-LLMs.html#what-are-large-language-models",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "What are Large Language Models?",
+    "text": "What are Large Language Models?\n\nLarge Language Models (LLMs) are a subset of Deep Learning, which is a type of Machine Learning."
+  },
+  {
     "objectID": "Introduction-to-LLMs.html#what-are-large-language-models-1",
     "href": "Introduction-to-LLMs.html#what-are-large-language-models-1",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "What are Large Language Models?",
-    "text": "What are Large Language Models?\n\nLLMs refer to general purpose models that can be pre-trained and the fine-tuned for specific tasks."
+    "text": "What are Large Language Models?\n\nLarge Language Models (LLMs) are a subset of Deep Learning, which is a type of Machine Learning.\nLLMs refer to general purpose models that can be pre-trained and the fine-tuned for specific tasks."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#what-are-large-language-models-2",
+    "href": "Introduction-to-LLMs.html#what-are-large-language-models-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "What are Large Language Models?",
+    "text": "What are Large Language Models?\n\nLarge Language Models (LLMs) are a subset of Deep Learning, which is a type of Machine Learning.\nLLMs refer to general purpose models that can be pre-trained and the fine-tuned for specific tasks\nLLMs are a type of generative AI, which creates new content based on patterns in the data it was trained on."
   },
   {
     "objectID": "Introduction-to-LLMs.html#why-llms-are-a-hot-topic",
@@ -60,11 +67,39 @@
     "href": "Introduction-to-LLMs.html#main-characteristics-of-llms",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "3 Main Characteristics of LLMs",
+    "text": "3 Main Characteristics of LLMs\n\nLarge"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#main-characteristics-of-llms-1",
+    "href": "Introduction-to-LLMs.html#main-characteristics-of-llms-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "3 Main Characteristics of LLMs",
+    "text": "3 Main Characteristics of LLMs\n\nLarge\nGeneral Purpose"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#main-characteristics-of-llms-2",
+    "href": "Introduction-to-LLMs.html#main-characteristics-of-llms-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "3 Main Characteristics of LLMs",
     "text": "3 Main Characteristics of LLMs\n\nLarge\nGeneral Purpose\nPre-trained and Fine-tuned"
   },
   {
     "objectID": "Introduction-to-LLMs.html#how-large-are-llms",
     "href": "Introduction-to-LLMs.html#how-large-are-llms",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "How “Large” are LLMs?",
+    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#how-large-are-llms-1",
+    "href": "Introduction-to-LLMs.html#how-large-are-llms-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "How “Large” are LLMs?",
+    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters\nThere are over 50 models &gt; 1 billion parameters.1\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#how-large-are-llms-2",
+    "href": "Introduction-to-LLMs.html#how-large-are-llms-2",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "How “Large” are LLMs?",
     "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters\nThere are over 50 models &gt; 1 billion parameters.1\nTraining data may be petabytes in size\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
@@ -74,21 +109,63 @@
     "href": "Introduction-to-LLMs.html#general-purpose",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "General Purpose",
-    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems."
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems, such as:"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#general-purpose-1",
+    "href": "Introduction-to-LLMs.html#general-purpose-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "General Purpose",
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems, such as:\n\ntext classification and generation"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#general-purpose-2",
+    "href": "Introduction-to-LLMs.html#general-purpose-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "General Purpose",
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems, such as:\n\ntext classification and generation\nquestion answering"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#general-purpose-3",
+    "href": "Introduction-to-LLMs.html#general-purpose-3",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "General Purpose",
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems, such as:\n\ntext classification and generation\nquestion answering\nsummarizing documents"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#general-purpose-4",
+    "href": "Introduction-to-LLMs.html#general-purpose-4",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "General Purpose",
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems, such as:\n\ntext classification and generation\nquestion answering\nsummarizing documents\ngenerating code"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#general-purpose-5",
+    "href": "Introduction-to-LLMs.html#general-purpose-5",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "General Purpose",
+    "text": "General Purpose\nGeneral Purpose means the model can be used to solve a wide variety of general language problems, such as:\n\ntext classification and generation\nquestion answering\nsummarizing documents\ngenerating code\ntranslating languages"
   },
   {
     "objectID": "Introduction-to-LLMs.html#pre-trained",
     "href": "Introduction-to-LLMs.html#pre-trained",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Pre-trained",
-    "text": "Pre-trained\nPre-trained means the model has been trained on a large amount of text data to solve common language problems, such as:\n\ntext classification and generation\nquestion answering\nsummarizing documents\ngenerating code\ntranslating languages"
+    "text": "Pre-trained\n\nPre-trained means the model has been trained on a large amount of text data to solve common language problems."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#pre-trained-1",
+    "href": "Introduction-to-LLMs.html#pre-trained-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Pre-trained",
+    "text": "Pre-trained\n\nPre-trained means the model has been trained on a large amount of text data to solve common language problems.\nPre-training typically involves training on huge amounts (petabytes) of text data (e.g., web pages scraped from the internet)"
   },
   {
     "objectID": "Introduction-to-LLMs.html#fine-tuned",
     "href": "Introduction-to-LLMs.html#fine-tuned",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nlegal\nmedical\nfinance\nscientific\n\n*small is relative to the amount of data used to pre-train the model."
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\n*small is relative to the amount of data used to pre-train the model."
   },
   {
     "objectID": "Introduction-to-LLMs.html#example-llms",
@@ -130,6 +207,27 @@
     "href": "Introduction-to-LLMs.html#ollama",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Ollama",
+    "text": "Ollama\n\nollama is an executable that allows you to run LLMs locally on your machine"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#ollama-1",
+    "href": "Introduction-to-LLMs.html#ollama-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Ollama",
+    "text": "Ollama\n\nollama is an executable that allows you to run LLMs locally on your machine\nChoose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#ollama-2",
+    "href": "Introduction-to-LLMs.html#ollama-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Ollama",
+    "text": "Ollama\n\nollama is an executable that allows you to run LLMs locally on your machine\nChoose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)\nEach model has an API that allows you to interact with the model programmatically"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#ollama-3",
+    "href": "Introduction-to-LLMs.html#ollama-3",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Ollama",
     "text": "Ollama\n\nollama is an executable that allows you to run LLMs locally on your machine\nChoose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)\nEach model has an API that allows you to interact with the model programmatically\nFewer models than HuggingFace, but easier to use\n\nWebsite: https://ollama.com/"
   },
   {
@@ -144,6 +242,27 @@
     "href": "Introduction-to-LLMs.html#why-run-llms-locally",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Why Run LLMs Locally?",
+    "text": "Why Run LLMs Locally?\n\nPrivacy - your data stays on your machine"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#why-run-llms-locally-1",
+    "href": "Introduction-to-LLMs.html#why-run-llms-locally-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why Run LLMs Locally?",
+    "text": "Why Run LLMs Locally?\n\nPrivacy - your data stays on your machine\nReproducibility - models are versioned so you reproduce your results"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#why-run-llms-locally-2",
+    "href": "Introduction-to-LLMs.html#why-run-llms-locally-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why Run LLMs Locally?",
+    "text": "Why Run LLMs Locally?\n\nPrivacy - your data stays on your machine\nReproducibility - models are versioned so you reproduce your results\nCost - running models locally can be cheaper than using cloud services"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#why-run-llms-locally-3",
+    "href": "Introduction-to-LLMs.html#why-run-llms-locally-3",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why Run LLMs Locally?",
     "text": "Why Run LLMs Locally?\n\nPrivacy - your data stays on your machine\nReproducibility - models are versioned so you reproduce your results\nCost - running models locally can be cheaper than using cloud services\nFine-tuning - you can customize the model to your needs"
   },
   {
@@ -156,6 +275,20 @@
   {
     "objectID": "Introduction-to-LLMs.html#downloading-and-running-ollama-1",
     "href": "Introduction-to-LLMs.html#downloading-and-running-ollama-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Downloading and Running ollama",
+    "text": "Downloading and Running ollama\n\nSelecting a model such as llama3 will download the model and run it in on your machine"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#downloading-and-running-ollama-2",
+    "href": "Introduction-to-LLMs.html#downloading-and-running-ollama-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Downloading and Running ollama",
+    "text": "Downloading and Running ollama\n\nSelecting a model such as llama3 will download the model and run it in on your machine\nNote that the first time you run a model, it will take some time to download the model and its dependencies"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#downloading-and-running-ollama-3",
+    "href": "Introduction-to-LLMs.html#downloading-and-running-ollama-3",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Downloading and Running ollama",
     "text": "Downloading and Running ollama\n\nSelecting a model such as llama3 will download the model and run it in on your machine\nNote that the first time you run a model, it will take some time to download the model and its dependencies\nBeware, some models may be very large and may use all of you machine’s resources while they are running"
@@ -186,7 +319,14 @@
     "href": "Introduction-to-LLMs.html#caution",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Caution",
-    "text": "Caution\n\nThe response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.\nBeware: the LLM may give factually incorrect information, so it’s important to verify the information."
+    "text": "Caution\n\nThe response may be slightly different each time you run the model. LLMs are probablistic, not deterministic."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#caution-1",
+    "href": "Introduction-to-LLMs.html#caution-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Caution",
+    "text": "Caution\n\nThe response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.\nLLMs generate responses based on patterns in the data they were trained on, so the content they produce may no be factually accurate, so it’s important to verify the information."
   },
   {
     "objectID": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically",
@@ -194,6 +334,13 @@
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Interacting with ollama Programmatically",
     "text": "Interacting with ollama Programmatically\nYou can interact with ollama programmatically using the API.\nWe will use an R script to interact with the ollama API."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#rollama-r-package",
+    "href": "Introduction-to-LLMs.html#rollama-r-package",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "rollama R Package",
+    "text": "rollama R Package\n\nrollama is an R package that makes it simple to interact with the ollama API\nv 0.1.0 is available on CRAN (released on May 1, 2024)\nGitHub\nReference Manual"
   },
   {
     "objectID": "Introduction-to-LLMs.html#link-to-r-script",
