@@ -28,11 +28,15 @@ format: revealjs
 
 ## What are Large Language Models?
 
+-   Large Language Models (LLMs) are a subset of **Deep Learning**,
+    which is a type of **Machine Learning**.
 -   LLMs refer to *general purpose* models that can be ***pre-trained***
     and the ***fine-tuned*** for specific tasks.
     
 ## What are Large Language Models?
 
+-   Large Language Models (LLMs) are a subset of **Deep Learning**,
+    which is a type of **Machine Learning**.
 -   LLMs refer to *general purpose* models that can be ***pre-trained***
     and the ***fine-tuned*** for specific tasks
 -   LLMs are a type of generative AI, which creates new content based on
@@ -86,9 +90,50 @@ format: revealjs
 
 -   The size of LLMs is typically measured in the number of parameters
 
+## How "Large" are LLMs?
+
+-   The size of LLMs is typically measured in the number of parameters
 -   There are over 50 models \> 1 billion parameters.[^1]
 
+## How "Large" are LLMs?
+
+-   The size of LLMs is typically measured in the number of parameters
+-   There are over 50 models \> 1 billion parameters.[^1]
 -   Training data may be petabytes in size
+
+## General Purpose
+
+***General Purpose*** means the model can be used to solve a wide
+variety of general language problems, such as:
+
+-   text classification and generation
+
+## General Purpose
+
+***General Purpose*** means the model can be used to solve a wide
+variety of general language problems, such as:
+
+-   text classification and generation
+-   question answering
+
+## General Purpose
+
+***General Purpose*** means the model can be used to solve a wide
+variety of general language problems, such as:
+
+-   text classification and generation
+-   question answering
+-   summarizing documents
+
+## General Purpose
+
+***General Purpose*** means the model can be used to solve a wide
+variety of general language problems, such as:
+
+-   text classification and generation
+-   question answering
+-   summarizing documents
+-   generating code
 
 ## General Purpose
 
@@ -103,9 +148,16 @@ variety of general language problems, such as:
 
 ## Pre-trained
 
-***Pre-trained*** means the model has been trained on a large amount of
-text data to solve common language problems. Pre-training typically
-involves training on huge amounts of text data, commonly web pages scraped from the internet.
+-   ***Pre-trained*** means the model has been trained on a large amount of
+text data to solve common language problems. 
+
+## Pre-trained
+
+-   ***Pre-trained*** means the model has been trained on a large amount of
+text data to solve common language problems. 
+
+-   Pre-training typically
+involves training on huge amounts (petabytes) of text data (e.g., web pages scraped from the internet)
 
 ## Fine-tuned
 
@@ -113,10 +165,10 @@ involves training on huge amounts of text data, commonly web pages scraped from 
 amount of domain data to solve a specific problem in different domains,
 such as:
 
--   legal
--   medical
--   finance
--   scientific
+-   finance (FinGPT, BloombergGPT)
+-   healthcare
+-   customer service (chatbots)
+-   data extraction
 
 **\*small** is relative to the amount of data used to pre-train the
 model.
