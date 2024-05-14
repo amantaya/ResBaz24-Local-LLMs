@@ -30,6 +30,13 @@ format: revealjs
 
 -   LLMs refer to *general purpose* models that can be ***pre-trained***
     and the ***fine-tuned*** for specific tasks.
+    
+## What are Large Language Models?
+
+-   LLMs refer to *general purpose* models that can be ***pre-trained***
+    and the ***fine-tuned*** for specific tasks
+-   LLMs are a type of generative AI, which creates new content based on
+    patterns in the data it was trained on.
 
 ## Why LLMs Are a Hot Topic
 
@@ -86,18 +93,19 @@ format: revealjs
 ## General Purpose
 
 ***General Purpose*** means the model can be used to solve a wide
-variety of general language problems.
-
-## Pre-trained
-
-***Pre-trained*** means the model has been trained on a large amount of
-text data to solve common language problems, such as:
+variety of general language problems, such as:
 
 -   text classification and generation
 -   question answering
 -   summarizing documents
 -   generating code
 -   translating languages
+
+## Pre-trained
+
+***Pre-trained*** means the model has been trained on a large amount of
+text data to solve common language problems. Pre-training typically
+involves training on huge amounts of text data, commonly web pages scraped from the internet.
 
 ## Fine-tuned
 
@@ -346,8 +354,7 @@ language understanding, and human-computer interaction.
 ## Caution
 
 -   The response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.
--   Beware: the LLM may give factually incorrect information, so it's
-important to verify the information.
+-   LLMs generate responses based on patterns in the data they were trained on, so the content they produce may no be factually accurate, so it's important to verify the information.
 
 ## Interacting with `ollama` Programmatically
 
