@@ -470,7 +470,7 @@ Andrew Antaya
 <ul>
 <li><p>The size of LLMs is typically measured in the number of parameters</p></li>
 <li><p>There are over 50 models &gt; 1 billion parameters.<sup>1</sup></p></li>
-<li><p>Training data is typically petabytes in size</p></li>
+<li><p>Training data may be petabytes in size</p></li>
 </ul>
 <aside><ol class="aside-footnotes"><li id="fn1"><p>https://matt-rickard.com/a-list-of-1-billion-parameter-llms</p></li></ol></aside></section>
 <section id="general-purpose" class="slide level2">
@@ -570,7 +570,7 @@ Andrew Antaya
 <h2>Selecting a Model</h2>
 <p>Consider the following when selecting a model:</p>
 <ul>
-<li><strong>Size</strong> - larger models typically perform better, but require more computational resources (GPU, memory, etc.)</li>
+<li><strong>Size</strong> - larger models (more parameters) typically perform better, but require more computational resources (GPU, memory, etc.)</li>
 <li><strong>Task</strong> - some models are better suited for specific tasks (e.g. summarization, translation, question/answer)</li>
 <li><strong>License</strong> - some models are proprietary and require a license</li>
 </ul>
@@ -596,26 +596,108 @@ Andrew Antaya
 <li>Text-to-Speech</li>
 </ul></li>
 <li><p>Most models use the <a href="https://huggingface.co/docs/transformers/en/index">transformers</a> library in Python</p></li>
-<li><p>Generally harder to use than <code>ollama</code> (especially for beginners)</p></li>
+<li><p>Generally harder to use than ollama (especially for beginners)</p></li>
 </ul>
 <p>Website: <a href="https://huggingface.co/" class="uri">https://huggingface.co/</a></p>
+</section>
+<section id="why-run-llms-locally" class="slide level2">
+<h2>Why Run LLMs Locally?</h2>
+<ul>
+<li><strong>Privacy</strong> - your data stays on your machine</li>
+<li><strong>Reproducibility</strong> - models are versioned so you reproduce your results</li>
+<li><strong>Cost</strong> - running models locally can be cheaper than using cloud services</li>
+<li><strong>Fine-tuning</strong> - you can customize the model to your needs</li>
+</ul>
 </section>
 <section id="downloading-and-running-ollama" class="slide level2">
 <h2>Downloading and Running <code>ollama</code></h2>
 <ol type="1">
-<li>Download the <code>ollama</code> executable from the <a href="https://ollama.com/">website</a></li>
-<li>Run the executable in the terminal/shell with the name of the model you want to run</li>
+<li>Download the <code>ollama</code> executable from the website <a href="https://ollama.com/download">here</a></li>
+<li>Enter <code>ollama run</code> in the terminal with the name of the model you want to run, for example:</li>
 </ol>
+<p>To run the <code>llama3</code> model:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a></a>ollama run llama3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="code" class="slide level2">
-<h2>Code</h2>
-<p>When you click the <strong>Render</strong> button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="downloading-and-running-ollama-1" class="slide level2">
+<h2>Downloading and Running <code>ollama</code></h2>
+<ul>
+<li><p>Selecting a model such as <code>llama3</code> will download the model and run it in on your machine</p></li>
+<li><p>Note that the first time you run a model, it will take some time to download the model and its dependencies</p></li>
+<li><p>Beware, some models may be very large and may use all of you machine’s resources while they are running</p></li>
+</ul>
+</section>
+<section id="models-and-sizes" class="slide level2">
+<h2>Models and Sizes</h2>
+<p>You can select different models and sizes based on your needs from the ollama website.</p>
+<p>For example, the <a href="https://ollama.com/library/llama3:70b">70 billion parameter</a> llama3 model is 40 GB.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a></a>ollama run llama3:70b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>In contrast, the <a href="https://ollama.com/library/llama3:8b">8 billion parameter</a> llama3 model is 4.7 GB.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a></a>ollama run llama3:8b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>By default, <code>ollama run llama3</code> will run the 8 billion parameter model.</p>
+</section>
+<section id="running-ollama-with-a-prompt-in-the-terminal" class="slide level2">
+<h2>Running <code>ollama</code> with a Prompt in the Terminal</h2>
+<p>Once the model is running, you can interact with it by typing in a prompt into the terminal.</p>
+<p>For example, you can type in a question and the model will generate a response.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1"><a></a>Q: What are large language models?</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="answer" class="slide level2">
+<h2>Answer</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>Large Language Models (LLMs) refer to artificial intelligence (AI) systems that can process and generate</span>
+<span id="cb5-2"><a></a>human-like language with unprecedented scale, depth, and quality. These models are typically trained on massive</span>
+<span id="cb5-3"><a></a>amounts of text data, often in the form of vast datasets or even entire books, articles, and online content.</span>
+<span id="cb5-4"><a></a></span>
+<span id="cb5-5"><a></a>The key characteristics of LLMs include:</span>
+<span id="cb5-6"><a></a></span>
+<span id="cb5-7"><a></a>1. **Large-scale training**: LLMs are trained on enormous datasets, which can range from tens of thousands to</span>
+<span id="cb5-8"><a></a>hundreds of millions of examples.</span>
+<span id="cb5-9"><a></a>2. **Deep learning architecture**: These models employ complex neural network architectures, such as</span>
+<span id="cb5-10"><a></a>transformer-based networks or recurrent neural networks (RNNs), which enable them to capture subtle patterns and</span>
+<span id="cb5-11"><a></a>relationships in language.</span>
+<span id="cb5-12"><a></a>3. **High-capacity computing resources**: LLMs require significant computational power and memory to train and</span>
+<span id="cb5-13"><a></a>process the massive amounts of data they operate on.</span>
+<span id="cb5-14"><a></a>4. **Advanced algorithms and techniques**: Researchers use innovative techniques, such as attention mechanisms,</span>
+<span id="cb5-15"><a></a>self-attention, and multi-task learning, to improve the models' ability to understand and generate human language.</span>
+<span id="cb5-16"><a></a></span>
+<span id="cb5-17"><a></a>Some notable examples of LLMs include:</span>
+<span id="cb5-18"><a></a></span>
+<span id="cb5-19"><a></a>1. **BERT (Bidirectional Encoder Representations from Transformers)**: Developed by Google in 2018, BERT is a</span>
+<span id="cb5-20"><a></a>widely used LLM that has achieved state-of-the-art results in many natural language processing (NLP) tasks.</span>
+<span id="cb5-21"><a></a>2. **RoBERTa (Robustly Optimized BERT Pre-training Approach)**: Released in 2019, RoBERTa is an improved version</span>
+<span id="cb5-22"><a></a>of BERT that uses a different optimization approach and achieves better performance on some NLP tasks.</span>
+<span id="cb5-23"><a></a>3. ** transformer-based models**: These include language models like T5 (Text-to-Text Transformer), Pegasus</span>
+<span id="cb5-24"><a></a>(Perturb-and-Multiply Generative Model for Sequence-to-Sequence Learning), and others, which have been developed</span>
+<span id="cb5-25"><a></a>to excel in various NLP tasks.</span>
+<span id="cb5-26"><a></a></span>
+<span id="cb5-27"><a></a>LLMs have numerous applications across industries, including:</span>
+<span id="cb5-28"><a></a></span>
+<span id="cb5-29"><a></a>1. **Natural Language Processing (NLP)**: LLMs can be used for language translation, sentiment analysis, question</span>
+<span id="cb5-30"><a></a>answering, text summarization, and more.</span>
+<span id="cb5-31"><a></a>2. **Content generation**: These models can generate original content, such as articles, stories, or even entire</span>
+<span id="cb5-32"><a></a>books, that are coherent and engaging.</span>
+<span id="cb5-33"><a></a>3. **Chatbots and virtual assistants**: LLMs can power conversational AI systems that understand and respond to</span>
+<span id="cb5-34"><a></a>human language.</span>
+<span id="cb5-35"><a></a>4. **Data analysis and summarization**: By analyzing large amounts of text data, LLMs can help identify trends,</span>
+<span id="cb5-36"><a></a>patterns, and insights.</span>
+<span id="cb5-37"><a></a></span>
+<span id="cb5-38"><a></a>The development of Large Language Models has the potential to revolutionize many areas of artificial intelligence,</span>
+<span id="cb5-39"><a></a>language understanding, and human-computer interaction.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="caution" class="slide level2">
+<h2>Caution</h2>
+<ul>
+<li><p>The response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.</p></li>
+<li><p>Beware: the LLM may give factually incorrect information, so it’s important to verify the information.</p></li>
+</ul>
+</section>
+<section id="interacting-with-ollama-programmatically" class="slide level2">
+<h2>Interacting with <code>ollama</code> Programmatically</h2>
+<p>You can interact with <code>ollama</code> programmatically using the API.</p>
+<p>We will use an R script to interact with the <code>ollama</code> API.</p>
+</section>
+<section id="link-to-r-script" class="slide level2">
+<h2>Link to R Script</h2>
+<p>The R script can be found <a href="R/example-api-request.R">here</a>.</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -834,82 +916,6 @@ Andrew Antaya
         ]
       });
     </script>
-    
-
-    <script>
-
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-
-      // slide changes (different for each slide format).
-
-      (function () {
-
-        // dispatch for htmlwidgets
-
-        function fireSlideEnter() {
-
-          const event = window.document.createEvent("Event");
-
-          event.initEvent("slideenter", true, true);
-
-          window.document.dispatchEvent(event);
-
-        }
-
-    
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          fireSlideEnter();
-
-    
-
-          // dispatch for shiny
-
-          if (window.jQuery) {
-
-            if (previousSlide) {
-
-              window.jQuery(previousSlide).trigger("hidden");
-
-            }
-
-            if (currentSlide) {
-
-              window.jQuery(currentSlide).trigger("shown");
-
-            }
-
-          }
-
-        }
-
-    
-
-        // hookup for slidy
-
-        if (window.w3c_slidy) {
-
-          window.w3c_slidy.add_observer(function (slide_num) {
-
-            // slide_num starts at position 1
-
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-
-          });
-
-        }
-
-    
-
-      })();
-
-    </script>
-
-    
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

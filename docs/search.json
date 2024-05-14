@@ -67,7 +67,7 @@
     "href": "Introduction-to-LLMs.html#how-large-are-llms",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "How “Large” are LLMs?",
-    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters\nThere are over 50 models &gt; 1 billion parameters.1\nTraining data is typically petabytes in size\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
+    "text": "How “Large” are LLMs?\n\nThe size of LLMs is typically measured in the number of parameters\nThere are over 50 models &gt; 1 billion parameters.1\nTraining data may be petabytes in size\n\nhttps://matt-rickard.com/a-list-of-1-billion-parameter-llms"
   },
   {
     "objectID": "Introduction-to-LLMs.html#general-purpose",
@@ -123,7 +123,7 @@
     "href": "Introduction-to-LLMs.html#selecting-a-model",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Selecting a Model",
-    "text": "Selecting a Model\nConsider the following when selecting a model:\n\nSize - larger models typically perform better, but require more computational resources (GPU, memory, etc.)\nTask - some models are better suited for specific tasks (e.g. summarization, translation, question/answer)\nLicense - some models are proprietary and require a license"
+    "text": "Selecting a Model\nConsider the following when selecting a model:\n\nSize - larger models (more parameters) typically perform better, but require more computational resources (GPU, memory, etc.)\nTask - some models are better suited for specific tasks (e.g. summarization, translation, question/answer)\nLicense - some models are proprietary and require a license"
   },
   {
     "objectID": "Introduction-to-LLMs.html#ollama",
@@ -140,17 +140,66 @@
     "text": "HuggingFace\n\nHosts a huge variety of pre-trained models, including:\n\nLLMs\nImage Classification\nObject Detection\nText-to-Speech\n\nMost models use the transformers library in Python\nGenerally harder to use than ollama (especially for beginners)\n\nWebsite: https://huggingface.co/"
   },
   {
+    "objectID": "Introduction-to-LLMs.html#why-run-llms-locally",
+    "href": "Introduction-to-LLMs.html#why-run-llms-locally",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Why Run LLMs Locally?",
+    "text": "Why Run LLMs Locally?\n\nPrivacy - your data stays on your machine\nReproducibility - models are versioned so you reproduce your results\nCost - running models locally can be cheaper than using cloud services\nFine-tuning - you can customize the model to your needs"
+  },
+  {
     "objectID": "Introduction-to-LLMs.html#downloading-and-running-ollama",
     "href": "Introduction-to-LLMs.html#downloading-and-running-ollama",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Downloading and Running ollama",
-    "text": "Downloading and Running ollama\n\nDownload the ollama executable from the website\nRun the executable in the terminal/shell with the name of the model you want to run\n\nollama run llama3"
+    "text": "Downloading and Running ollama\n\nDownload the ollama executable from the website here\nEnter ollama run in the terminal with the name of the model you want to run, for example:\n\nTo run the llama3 model:\nollama run llama3"
   },
   {
-    "objectID": "Introduction-to-LLMs.html#code",
-    "href": "Introduction-to-LLMs.html#code",
+    "objectID": "Introduction-to-LLMs.html#downloading-and-running-ollama-1",
+    "href": "Introduction-to-LLMs.html#downloading-and-running-ollama-1",
     "title": "Introduction to Running LLMs - Locally!",
-    "section": "Code",
-    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+    "section": "Downloading and Running ollama",
+    "text": "Downloading and Running ollama\n\nSelecting a model such as llama3 will download the model and run it in on your machine\nNote that the first time you run a model, it will take some time to download the model and its dependencies\nBeware, some models may be very large and may use all of you machine’s resources while they are running"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#models-and-sizes",
+    "href": "Introduction-to-LLMs.html#models-and-sizes",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Models and Sizes",
+    "text": "Models and Sizes\nYou can select different models and sizes based on your needs from the ollama website.\nFor example, the 70 billion parameter llama3 model is 40 GB.\nollama run llama3:70b\nIn contrast, the 8 billion parameter llama3 model is 4.7 GB.\nollama run llama3:8b\nBy default, ollama run llama3 will run the 8 billion parameter model."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#running-ollama-with-a-prompt-in-the-terminal",
+    "href": "Introduction-to-LLMs.html#running-ollama-with-a-prompt-in-the-terminal",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Running ollama with a Prompt in the Terminal",
+    "text": "Running ollama with a Prompt in the Terminal\nOnce the model is running, you can interact with it by typing in a prompt into the terminal.\nFor example, you can type in a question and the model will generate a response.\nQ: What are large language models?"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#answer",
+    "href": "Introduction-to-LLMs.html#answer",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Answer",
+    "text": "Answer\nLarge Language Models (LLMs) refer to artificial intelligence (AI) systems that can process and generate\nhuman-like language with unprecedented scale, depth, and quality. These models are typically trained on massive\namounts of text data, often in the form of vast datasets or even entire books, articles, and online content.\n\nThe key characteristics of LLMs include:\n\n1. **Large-scale training**: LLMs are trained on enormous datasets, which can range from tens of thousands to\nhundreds of millions of examples.\n2. **Deep learning architecture**: These models employ complex neural network architectures, such as\ntransformer-based networks or recurrent neural networks (RNNs), which enable them to capture subtle patterns and\nrelationships in language.\n3. **High-capacity computing resources**: LLMs require significant computational power and memory to train and\nprocess the massive amounts of data they operate on.\n4. **Advanced algorithms and techniques**: Researchers use innovative techniques, such as attention mechanisms,\nself-attention, and multi-task learning, to improve the models' ability to understand and generate human language.\n\nSome notable examples of LLMs include:\n\n1. **BERT (Bidirectional Encoder Representations from Transformers)**: Developed by Google in 2018, BERT is a\nwidely used LLM that has achieved state-of-the-art results in many natural language processing (NLP) tasks.\n2. **RoBERTa (Robustly Optimized BERT Pre-training Approach)**: Released in 2019, RoBERTa is an improved version\nof BERT that uses a different optimization approach and achieves better performance on some NLP tasks.\n3. ** transformer-based models**: These include language models like T5 (Text-to-Text Transformer), Pegasus\n(Perturb-and-Multiply Generative Model for Sequence-to-Sequence Learning), and others, which have been developed\nto excel in various NLP tasks.\n\nLLMs have numerous applications across industries, including:\n\n1. **Natural Language Processing (NLP)**: LLMs can be used for language translation, sentiment analysis, question\nanswering, text summarization, and more.\n2. **Content generation**: These models can generate original content, such as articles, stories, or even entire\nbooks, that are coherent and engaging.\n3. **Chatbots and virtual assistants**: LLMs can power conversational AI systems that understand and respond to\nhuman language.\n4. **Data analysis and summarization**: By analyzing large amounts of text data, LLMs can help identify trends,\npatterns, and insights.\n\nThe development of Large Language Models has the potential to revolutionize many areas of artificial intelligence,\nlanguage understanding, and human-computer interaction."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#caution",
+    "href": "Introduction-to-LLMs.html#caution",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Caution",
+    "text": "Caution\n\nThe response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.\nBeware: the LLM may give factually incorrect information, so it’s important to verify the information."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically",
+    "href": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Interacting with ollama Programmatically",
+    "text": "Interacting with ollama Programmatically\nYou can interact with ollama programmatically using the API.\nWe will use an R script to interact with the ollama API."
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#link-to-r-script",
+    "href": "Introduction-to-LLMs.html#link-to-r-script",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Link to R Script",
+    "text": "Link to R Script\nThe R script can be found here."
   }
 ]
