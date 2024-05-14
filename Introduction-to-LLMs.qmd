@@ -72,7 +72,7 @@ format: revealjs
 
 -   There are over 50 models \> 1 billion parameters.[^1]
 
--   Training data is typically petabytes in size
+-   Training data may be petabytes in size
 
 ## General Purpose
 
