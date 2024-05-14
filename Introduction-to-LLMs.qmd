@@ -300,6 +300,14 @@ You can interact with `ollama` programmatically using the API.
 
 We will use an R script to interact with the `ollama` API.
 
+## `rollama` R Package
+
+-   `rollama` is an R package that makes it simple to interact with the
+    `ollama` API
+-   v 0.1.0 is available on CRAN (released on May 1, 2024)
+-   [GitHub](https://github.com/JBGruber/rollama/tree/main)
+-   [Reference Manual](https://cran.r-project.org/web/packages/rollama/rollama.pdf)
+
 ## Link to R Script
 
 The R script can be found [here](R/example-api-request.R).
