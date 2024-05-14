@@ -4,11 +4,6 @@ author: "Andrew Antaya"
 format: revealjs
 ---
 
-## What are Large Language Models?
-
--   Large Language Models (LLMs) are a subset of **Deep Learning**,
-    which is a type of **Machine Learning**.
-
 ## Machine Learning vs. Artificial Intelligence?
 
 -   ***Machine Learning*** is sometimes used interchangeably with the
@@ -25,6 +20,11 @@ format: revealjs
 -   ***Machine Learning*** is a subset of **AI**, which is a broader
     field that includes other types of algorithms that can perform tasks
     that typically require human intelligence.
+
+## What are Large Language Models?
+
+-   Large Language Models (LLMs) are a subset of **Deep Learning**,
+    which is a type of **Machine Learning**.
 
 ## What are Large Language Models?
 
