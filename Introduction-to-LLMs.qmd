@@ -175,9 +175,16 @@ Website: <https://ollama.com/>
     [transformers](https://huggingface.co/docs/transformers/en/index)
     library in Python
 
--   Generally harder to use than `ollama` (especially for beginners)
+-   Generally harder to use than ollama (especially for beginners)
 
 Website: <https://huggingface.co/>
+
+## Why Run LLMs Locally?
+
+-   **Privacy** - your data stays on your machine
+-   **Reproducibility** - models are versioned so you reproduce your results
+-   **Cost** - running models locally can be cheaper than using cloud services
+-   **Fine-tuning** - you can customize the model to your needs
 
 ## Downloading and Running `ollama`
 
@@ -195,13 +202,13 @@ ollama run llama3
 ## Downloading and Running `ollama`
 
 -   Selecting a model such as `llama3` will download the model and run
-    it in on your machine.
+    it in on your machine
 
 -   Note that the first time you run a model, it will take some time to
-    download the model and its dependencies.
+    download the model and its dependencies
 
 -   Beware, some models may be very large and may use all of you
-    machine's resources while they are running.
+    machine's resources while they are running
 
 ## Models and Sizes
 
@@ -236,7 +243,7 @@ response.
 Q: What are large language models?
 ```
 
-## Running `ollama` with a Prompt in the Terminal
+## Answer
 
 ``` text
 Large Language Models (LLMs) refer to artificial intelligence (AI) systems that can process and generate
@@ -280,13 +287,22 @@ The development of Large Language Models has the potential to revolutionize many
 language understanding, and human-computer interaction.
 ```
 
-Note that the response may be slightly different each time you run the
-model.
+## Caution
 
-Also note that the LLM may give factually incorrect information, so it's
+-   The response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.
+
+-   Beware: the LLM may give factually incorrect information, so it's
 important to verify the information.
 
-## 
+## Interacting with `ollama` Programmatically
+
+You can interact with `ollama` programmatically using the API.
+
+We will use an R script to interact with the `ollama` API.
+
+## Link to R Script
+
+
 
 [^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
 
