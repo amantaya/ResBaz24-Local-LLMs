@@ -1,5 +1,7 @@
 library("httr2")
 library("httpuv")
+library("jsonlite")
+library("stringr")
 
 # location of the LLM API on your local machine
 url <- "http://localhost:11434/api/generate"
@@ -25,6 +27,14 @@ response <- httr2::req_perform(request)
 # check if the response has a body
 httr2::resp_has_body(response)
 
-# print the response content
-# TODO need to figure out how the response is formatted and convert it to a R object
-httr2::resp_body_json(response)
+# save the response body as a string
+# the response body are multiple JSON objects separated by the newline character
+response_body <- httr2::resp_body_string(response)
+
+# break the response into a list of JSON objects by the newline character
+json_list <- stringr::str_split(response_body, "\n")
+
+
+
+# the response returns multiple JSON object, so we can use the jsonlite package to convert it to a R object
+jsonlite::fromJSON(json_list[1][1])
