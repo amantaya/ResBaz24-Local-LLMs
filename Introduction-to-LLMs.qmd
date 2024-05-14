@@ -129,6 +129,7 @@ Here's a non-comprehensive list of some of the largest models:
     the input/prompt
 
 ## Types of LLMs
+
 -   **Generic Language Models** - predict the next token/word base on
     the training data
 -   **Instruction-Tuned** - predict a response to instructions given in
@@ -140,18 +141,19 @@ Here's a non-comprehensive list of some of the largest models:
 
 Consider the following when selecting a model:
 
--   **Size** - larger models typically perform better, but require more
-    computational resources (GPU, memory, etc.)
+-   **Size** - larger models (more parameters) typically perform better,
+    but require more computational resources (GPU, memory, etc.)
 -   **Task** - some models are better suited for specific tasks (e.g.
     summarization, translation, question/answer)
--   **License** - some models are proprietary and require a license 
+-   **License** - some models are proprietary and require a license
 
 ## Ollama
 
 -   `ollama` is an executable that allows you to run LLMs locally on
     your machine
-    
--   Choose from a variety of open-source models and sizes (e.g., llama3, mistral-7B, gemma)
+
+-   Choose from a variety of open-source models and sizes (e.g., llama3,
+    mistral-7B, gemma)
 
 -   Each model has an API that allows you to interact with the model
     programmatically
@@ -179,23 +181,72 @@ Website: <https://huggingface.co/>
 
 ## Downloading and Running `ollama`
 
-1.  Download the `ollama` executable from the [website](https://ollama.com/)
-2.  Run the executable in the terminal/shell with the name of the model
-    you want to run
+1.  Download the `ollama` executable from the website
+    [here](https://ollama.com/download)
+2.  Enter `ollama run` in the terminal with the name of the model you
+    want to run, for example:
 
-```shell
+To run the `llama3` model:
+
+``` shell
 ollama run llama3
 ```
 
-## Code
+## Downloading and Running `ollama`
 
-When you click the **Render** button a presentation will be generated
-that includes both content and the output of embedded code. You can
-embed code like this:
+-   Selecting a model such as `llama3` will download the model and run
+    it in on your machine.
 
-```{r}
-1 + 1
+-   Note that the first time you run a model, it will take some time to
+    download the model and its dependencies.
+
+-   Beware, some models may be very large and may use all of you
+    machine's resources while they are running.
+
+## Models and Sizes
+
+You can select different models and sizes based on your needs from the
+ollama website.
+
+For example, the [70 billion
+parameter](https://ollama.com/library/llama3:70b) llama3 model is 40 GB.
+
+``` shell
+ollama run llama3:70b
 ```
+
+In contrast, the [8 billion
+parameter](https://ollama.com/library/llama3:8b) llama3 model is 4.7 GB.
+
+``` shell
+ollama run llama3:8b
+```
+
+By default, ```ollama run llama3``` will run the 8 billion parameter model.
+
+## Running `ollama` with a Prompt in the Terminal
+
+Once the model is running, you can interact with it by typing in a prompt into the terminal.
+
+For example, you can type in a question and the model will generate a response.
+
+```text
+Q: What are large language models?
+```
+
+## Running `ollama` with a Prompt in the Terminal
+
+```text
+Large Language Models (LLMs) refer to artificial intelligence (AI) systems that can process and generate
+human-like language with unprecedented scale, depth, and quality. These models are typically trained on massive
+amounts of text data, often in the form of vast datasets or even entire books, articles, and online content.
+```
+
+Note that the response may be slightly different each time you run the model.
+
+Also note that the LLM may give factually incorrect information, so it's important to verify the information.
+
+## 
 
 [^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
 
