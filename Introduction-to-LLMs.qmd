@@ -63,6 +63,15 @@ format: revealjs
 ## 3 Main Characteristics of LLMs
 
 1.  Large
+
+## 3 Main Characteristics of LLMs
+
+1.  Large
+2.  General Purpose
+
+## 3 Main Characteristics of LLMs
+
+1.  Large
 2.  General Purpose
 3.  Pre-trained and Fine-tuned
 
@@ -152,12 +161,30 @@ Consider the following when selecting a model:
 -   `ollama` is an executable that allows you to run LLMs locally on
     your machine
 
+## Ollama
+
+-   `ollama` is an executable that allows you to run LLMs locally on
+    your machine
 -   Choose from a variety of open-source models and sizes (e.g., llama3,
     mistral-7B, gemma)
 
+## Ollama
+
+-   `ollama` is an executable that allows you to run LLMs locally on
+    your machine
+-   Choose from a variety of open-source models and sizes (e.g., llama3,
+    mistral-7B, gemma)
 -   Each model has an API that allows you to interact with the model
     programmatically
 
+## Ollama
+
+-   `ollama` is an executable that allows you to run LLMs locally on
+    your machine
+-   Choose from a variety of open-source models and sizes (e.g., llama3,
+    mistral-7B, gemma)
+-   Each model has an API that allows you to interact with the model
+    programmatically
 -   Fewer models than HuggingFace, but easier to use
 
 Website: <https://ollama.com/>
@@ -178,6 +205,21 @@ Website: <https://ollama.com/>
 -   Generally harder to use than ollama (especially for beginners)
 
 Website: <https://huggingface.co/>
+
+## Why Run LLMs Locally?
+
+-   **Privacy** - your data stays on your machine
+
+## Why Run LLMs Locally?
+
+-   **Privacy** - your data stays on your machine
+-   **Reproducibility** - models are versioned so you reproduce your results
+
+## Why Run LLMs Locally?
+
+-   **Privacy** - your data stays on your machine
+-   **Reproducibility** - models are versioned so you reproduce your results
+-   **Cost** - running models locally can be cheaper than using cloud services
 
 ## Why Run LLMs Locally?
 
@@ -204,9 +246,19 @@ ollama run llama3
 -   Selecting a model such as `llama3` will download the model and run
     it in on your machine
 
+## Downloading and Running `ollama`
+
+-   Selecting a model such as `llama3` will download the model and run
+    it in on your machine
 -   Note that the first time you run a model, it will take some time to
     download the model and its dependencies
 
+## Downloading and Running `ollama`
+
+-   Selecting a model such as `llama3` will download the model and run
+    it in on your machine
+-   Note that the first time you run a model, it will take some time to
+    download the model and its dependencies
 -   Beware, some models may be very large and may use all of you
     machine's resources while they are running
 
@@ -291,6 +343,9 @@ language understanding, and human-computer interaction.
 
 -   The response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.
 
+## Caution
+
+-   The response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.
 -   Beware: the LLM may give factually incorrect information, so it's
 important to verify the information.
 
