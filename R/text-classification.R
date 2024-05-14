@@ -58,7 +58,7 @@ for (i in 1:nrow(sample_reviews)) {
     Text: {sample_reviews$text[i]}"
   )
 
-  answer <- rollama::query(prompt, model = "llama3")
+  answer <- rollama::query(prompt, model = "llama3", screen = FALSE)
 
   sample_reviews$llm_response[i] <- answer$message$content
 }
