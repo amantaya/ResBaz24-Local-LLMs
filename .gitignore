@@ -7,3 +7,4 @@
 
 # revealJS dependencies for rendering markdown to JS
 /site_libs/
+docs/R/example-api-request.R
