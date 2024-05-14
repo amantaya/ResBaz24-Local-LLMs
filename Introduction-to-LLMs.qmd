@@ -222,29 +222,69 @@ parameter](https://ollama.com/library/llama3:8b) llama3 model is 4.7 GB.
 ollama run llama3:8b
 ```
 
-By default, ```ollama run llama3``` will run the 8 billion parameter model.
+By default, `ollama run llama3` will run the 8 billion parameter model.
 
 ## Running `ollama` with a Prompt in the Terminal
 
-Once the model is running, you can interact with it by typing in a prompt into the terminal.
+Once the model is running, you can interact with it by typing in a
+prompt into the terminal.
 
-For example, you can type in a question and the model will generate a response.
+For example, you can type in a question and the model will generate a
+response.
 
-```text
+``` text
 Q: What are large language models?
 ```
 
 ## Running `ollama` with a Prompt in the Terminal
 
-```text
+``` text
 Large Language Models (LLMs) refer to artificial intelligence (AI) systems that can process and generate
 human-like language with unprecedented scale, depth, and quality. These models are typically trained on massive
 amounts of text data, often in the form of vast datasets or even entire books, articles, and online content.
+
+The key characteristics of LLMs include:
+
+1. **Large-scale training**: LLMs are trained on enormous datasets, which can range from tens of thousands to
+hundreds of millions of examples.
+2. **Deep learning architecture**: These models employ complex neural network architectures, such as
+transformer-based networks or recurrent neural networks (RNNs), which enable them to capture subtle patterns and
+relationships in language.
+3. **High-capacity computing resources**: LLMs require significant computational power and memory to train and
+process the massive amounts of data they operate on.
+4. **Advanced algorithms and techniques**: Researchers use innovative techniques, such as attention mechanisms,
+self-attention, and multi-task learning, to improve the models' ability to understand and generate human language.
+
+Some notable examples of LLMs include:
+
+1. **BERT (Bidirectional Encoder Representations from Transformers)**: Developed by Google in 2018, BERT is a
+widely used LLM that has achieved state-of-the-art results in many natural language processing (NLP) tasks.
+2. **RoBERTa (Robustly Optimized BERT Pre-training Approach)**: Released in 2019, RoBERTa is an improved version
+of BERT that uses a different optimization approach and achieves better performance on some NLP tasks.
+3. ** transformer-based models**: These include language models like T5 (Text-to-Text Transformer), Pegasus
+(Perturb-and-Multiply Generative Model for Sequence-to-Sequence Learning), and others, which have been developed
+to excel in various NLP tasks.
+
+LLMs have numerous applications across industries, including:
+
+1. **Natural Language Processing (NLP)**: LLMs can be used for language translation, sentiment analysis, question
+answering, text summarization, and more.
+2. **Content generation**: These models can generate original content, such as articles, stories, or even entire
+books, that are coherent and engaging.
+3. **Chatbots and virtual assistants**: LLMs can power conversational AI systems that understand and respond to
+human language.
+4. **Data analysis and summarization**: By analyzing large amounts of text data, LLMs can help identify trends,
+patterns, and insights.
+
+The development of Large Language Models has the potential to revolutionize many areas of artificial intelligence,
+language understanding, and human-computer interaction.
 ```
 
-Note that the response may be slightly different each time you run the model.
+Note that the response may be slightly different each time you run the
+model.
 
-Also note that the LLM may give factually incorrect information, so it's important to verify the information.
+Also note that the LLM may give factually incorrect information, so it's
+important to verify the information.
 
 ## 
 
