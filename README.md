@@ -24,7 +24,7 @@ We will cover the following topics in this workshop:
 ## Schedule
 
 | Time        | Duration | Topic                                                 |
-|------------------|------------------|-------------------------------------|
+|-------------|----------|-------------------------------------------------------|
 | 0:00 - 0:15 | 15 Min   | Introduction to Large Language Models                 |
 | 0:15 - 0:25 | 10 Min   | Selecting a Large Language Model                      |
 | 0:25 - 0:30 | 5 Min    | 5 Minute Break                                        |
