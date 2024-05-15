@@ -217,6 +217,15 @@ such as:
 -   customer service (chatbots)
 -   data extraction
 
+***Fine-tuned*** means the model has been trained on a **small\***
+amount of domain data to solve a specific problem in different domains,
+such as:
+
+-   finance (FinGPT, BloombergGPT)
+-   healthcare
+-   customer service (chatbots)
+-   data extraction
+
 **\*small** is relative to the amount of data used to pre-train the
 model.
 
@@ -453,7 +462,7 @@ language understanding, and human-computer interaction.
 ## Caution
 
 -   The response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.
--   LLMs generate responses based on patterns in the data they were trained on, so the content they produce may no be factually accurate, so it's important to verify the information.
+-   LLMs generate responses based on patterns in the data they were trained on, so the content they produce may not be factually accurate, so it's important to verify the information.
 
 ## Interacting with `ollama` Programmatically
 
