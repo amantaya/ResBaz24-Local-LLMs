@@ -208,14 +208,7 @@ such as:
 -   customer service (chatbots)
 -   data extraction
 
-***Fine-tuned*** means the model has been trained on a **small\***
-amount of domain data to solve a specific problem in different domains,
-such as:
-
--   finance (FinGPT, BloombergGPT)
--   healthcare
--   customer service (chatbots)
--   data extraction
+## Fine-tuned
 
 ***Fine-tuned*** means the model has been trained on a **small\***
 amount of domain data to solve a specific problem in different domains,
