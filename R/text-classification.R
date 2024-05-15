@@ -1,5 +1,6 @@
 library("rollama")
 library("arrow")
+library("glue")
 library("tidyverse")
 
 # We will be classifying movie reviews from rotten tomatoes as either positive or negative
