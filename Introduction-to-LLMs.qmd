@@ -481,11 +481,11 @@ language understanding, and human-computer interaction.
 
 ## Link to Example R Script
 
-The R script can be found [here](R/example-query.R).
+The R script can be found [here](https://github.com/amantaya/ResBaz24-Local-LLMs/blob/main/R/example-query.R).
 
 ## Link to Text Classification R Sript
 
-The R script can be found [here](R/text-classification.R).
+The R script can be found [here](https://github.com/amantaya/ResBaz24-Local-LLMs/blob/main/R/text-classification.R).
 
 [^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
 
