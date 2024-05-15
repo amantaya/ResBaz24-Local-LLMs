@@ -1,6 +1,5 @@
 library("rollama")
 library("arrow")
-library("glue")
 library("tidyverse")
 
 # We will be classifying movie reviews from rotten tomatoes as either positive or negative
@@ -70,6 +69,8 @@ sample_reviews <- sample_reviews %>%
     llm_sentiment = stringr::str_extract(llm_response, "positive|negative"),
     llm_score = dplyr::if_else(llm_sentiment == "positive", 1, 0)
   )
+
+# Model Performance Score -------------------------------------------------
 
 # create a model performance score where we compare 
 # the labeled score (crowdsourced by humans) with the LLMs score

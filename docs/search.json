@@ -165,35 +165,7 @@
     "href": "Introduction-to-LLMs.html#fine-tuned",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:"
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#fine-tuned-1",
-    "href": "Introduction-to-LLMs.html#fine-tuned-1",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)"
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#fine-tuned-2",
-    "href": "Introduction-to-LLMs.html#fine-tuned-2",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare"
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#fine-tuned-3",
-    "href": "Introduction-to-LLMs.html#fine-tuned-3",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)"
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#fine-tuned-4",
-    "href": "Introduction-to-LLMs.html#fine-tuned-4",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\n*small is relative to the amount of data used to pre-train the model."
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\n*small is relative to the amount of data used to pre-train the model."
   },
   {
     "objectID": "Introduction-to-LLMs.html#example-llms",
@@ -361,21 +333,7 @@
     "href": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Interacting with ollama Programmatically",
-    "text": "Interacting with ollama Programmatically\n\nYou can interact with ollama programmatically using the API that comes with each model."
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically-1",
-    "href": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically-1",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Interacting with ollama Programmatically",
-    "text": "Interacting with ollama Programmatically\n\nYou can interact with ollama programmatically using the API that comes with each model.\nThe API simplifies the process of sending questions to the model and receiving responses."
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically-2",
-    "href": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically-2",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Interacting with ollama Programmatically",
-    "text": "Interacting with ollama Programmatically\n\nThe API simplifies the process of sending questions to the model and receiving responses.\nYou can interact with ollama programmatically using the API that comes with each model.\nWe will use an R script to interact with the ollama API using the rollama R package."
+    "text": "Interacting with ollama Programmatically\nYou can interact with ollama programmatically using the API.\nWe will use an R script to interact with the ollama API."
   },
   {
     "objectID": "Introduction-to-LLMs.html#rollama-r-package",
@@ -385,17 +343,10 @@
     "text": "rollama R Package\n\nrollama is an R package that makes it simple to interact with the ollama API\nv 0.1.0 is available on CRAN (released on May 1, 2024)\nGitHub\nReference Manual"
   },
   {
-    "objectID": "Introduction-to-LLMs.html#link-to-example-r-script",
-    "href": "Introduction-to-LLMs.html#link-to-example-r-script",
+    "objectID": "Introduction-to-LLMs.html#link-to-r-script",
+    "href": "Introduction-to-LLMs.html#link-to-r-script",
     "title": "Introduction to Running LLMs - Locally!",
-    "section": "Link to Example R Script",
-    "text": "Link to Example R Script\nThe R script can be found here."
-  },
-  {
-    "objectID": "Introduction-to-LLMs.html#link-to-text-classification-r-sript",
-    "href": "Introduction-to-LLMs.html#link-to-text-classification-r-sript",
-    "title": "Introduction to Running LLMs - Locally!",
-    "section": "Link to Text Classification R Sript",
-    "text": "Link to Text Classification R Sript\nThe R script can be found here."
+    "section": "Link to R Script",
+    "text": "Link to R Script\nThe R script can be found here."
   }
 ]

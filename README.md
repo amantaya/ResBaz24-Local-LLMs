@@ -38,8 +38,6 @@ Models](https://amantaya.github.io/ResBaz24-Local-LLMs)
 
 ## Setup
 
-### Ollama
-
 We will be using `ollama` which is a free to use program that allows you
 to run large language models on your local machine. You can download it
 from [here](https://ollama.com).
@@ -59,20 +57,6 @@ using LLMs for your projects.
 `ollama` uses the graphics processing unit (GPU) on your machine to run
 LLMs. This can take a long time to run, especially if you have an older
 machine and/or a weaker GPU.
-
-### R Studio
-
-Additionally, we will be using R Studio for the workshop. You can download
-R Studio [here](https://posit.co/download/rstudio-desktop/).
-
-We will be using the following R packages in this workshop:
-
--   `tidyverse` suite of packages - mainly `dplyr` and `stringr`
--   `glue` - to create strings for API calls to ollama
--   `rollama` - to interact with ollama through R
--   `arrow` - to read and write parquet files
-
-Please install these packages before the workshop.
 
 ## Additional Resources
 
