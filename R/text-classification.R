@@ -69,3 +69,10 @@ for (i in 1:nrow(sample_reviews)) {
 # using an if_else statement to extract the score from the LLM response
 # where positive is 1 and negative is 0
 View(sample_reviews)
+
+sample_reviews <- sample_reviews %>%
+  dplyr::mutate(
+    llm_sentiment = stringr::str_extract(llm_response, "positive|negative"),
+    llm_score = dplyr::if_else(llm_sentiment == "positive", 1, 0)
+  )
+
