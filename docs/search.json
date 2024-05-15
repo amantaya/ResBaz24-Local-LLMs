@@ -165,7 +165,35 @@
     "href": "Introduction-to-LLMs.html#fine-tuned",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\n*small is relative to the amount of data used to pre-train the model."
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#fine-tuned-1",
+    "href": "Introduction-to-LLMs.html#fine-tuned-1",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Fine-tuned",
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#fine-tuned-2",
+    "href": "Introduction-to-LLMs.html#fine-tuned-2",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Fine-tuned",
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#fine-tuned-3",
+    "href": "Introduction-to-LLMs.html#fine-tuned-3",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Fine-tuned",
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)"
+  },
+  {
+    "objectID": "Introduction-to-LLMs.html#fine-tuned-4",
+    "href": "Introduction-to-LLMs.html#fine-tuned-4",
+    "title": "Introduction to Running LLMs - Locally!",
+    "section": "Fine-tuned",
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\n*small is relative to the amount of data used to pre-train the model."
   },
   {
     "objectID": "Introduction-to-LLMs.html#example-llms",
