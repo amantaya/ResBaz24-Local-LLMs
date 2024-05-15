@@ -457,21 +457,33 @@ language understanding, and human-computer interaction.
 
 ## Interacting with `ollama` Programmatically
 
-You can interact with `ollama` programmatically using the API.
+-   You can interact with ollama programmatically using the API that comes with each model.
 
-We will use an R script to interact with the `ollama` API.
+## Interacting with `ollama` Programmatically
+-   You can interact with ollama programmatically using the API that comes with each model.
+-   The API simplifies the process of sending questions to the model and receiving responses.
+
+## Interacting with `ollama` Programmatically
+
+-   The API simplifies the process of sending questions to the model and receiving responses.
+-   You can interact with ollama programmatically using the API that comes with each model.
+-   We will use an R script to interact with the ollama API using the `rollama` R package.
 
 ## `rollama` R Package
 
 -   `rollama` is an R package that makes it simple to interact with the
-    `ollama` API
+    ollama API
 -   v 0.1.0 is available on CRAN (released on May 1, 2024)
 -   [GitHub](https://github.com/JBGruber/rollama/tree/main)
 -   [Reference Manual](https://cran.r-project.org/web/packages/rollama/rollama.pdf)
 
-## Link to R Script
+## Link to Example R Script
 
 The R script can be found [here](R/example-query.R).
+
+## Link to Text Classification R Sript
+
+The R script can be found [here](R/text-classification.R).
 
 [^1]: https://matt-rickard.com/a-list-of-1-billion-parameter-llms
 
