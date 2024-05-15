@@ -77,3 +77,5 @@ model_performance <- sample_reviews %>%
   dplyr::summarize(
     accuracy = mean(label == llm_score)
   )
+
+print(model_performance)
