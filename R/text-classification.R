@@ -1,5 +1,6 @@
 library("rollama")
 library("arrow")
+library("glue")
 library("tidyverse")
 
 # We will be classifying movie reviews from rotten tomatoes as either positive or negative
@@ -62,12 +63,6 @@ for (i in 1:nrow(sample_reviews)) {
   sample_reviews$llm_response[i] <- answer$message$content
 }
 
-# TODO compare the score of the LLM response to the `label` column
-# to see if the LLM correctly classified the movie review
-
-# TODO first we need to extract the score from the LLM response
-# using an if_else statement to extract the score from the LLM response
-# where positive is 1 and negative is 0
 View(sample_reviews)
 
 sample_reviews <- sample_reviews %>%
@@ -76,3 +71,9 @@ sample_reviews <- sample_reviews %>%
     llm_score = dplyr::if_else(llm_sentiment == "positive", 1, 0)
   )
 
+# create a model performance score where we compare 
+# the labeled score (crowdsourced by humans) with the LLMs score
+model_performance <- sample_reviews %>%
+  dplyr::summarize(
+    accuracy = mean(label == llm_score)
+  )
