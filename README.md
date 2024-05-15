@@ -55,9 +55,8 @@ programming language like R or Python. This simplifies the process of
 using LLMs for your projects.
 
 `ollama` uses the graphics processing unit (GPU) on your machine to run
-LLMs. This can be very computationally expensive and can take a long
-time to run, especially if you have an older machine and/or a weaker
-GPU.
+LLMs. This can take a long time to run, especially if you have an older
+machine and/or a weaker GPU.
 
 ## Additional Resources
 
