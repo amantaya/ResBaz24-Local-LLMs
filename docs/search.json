@@ -193,7 +193,7 @@
     "href": "Introduction-to-LLMs.html#fine-tuned-4",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Fine-tuned",
-    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\n*small is relative to the amount of data used to pre-train the model."
+    "text": "Fine-tuned\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\nFine-tuned means the model has been trained on a small* amount of domain data to solve a specific problem in different domains, such as:\n\nfinance (FinGPT, BloombergGPT)\nhealthcare\ncustomer service (chatbots)\ndata extraction\n\n*small is relative to the amount of data used to pre-train the model."
   },
   {
     "objectID": "Introduction-to-LLMs.html#example-llms",
@@ -354,7 +354,7 @@
     "href": "Introduction-to-LLMs.html#caution-1",
     "title": "Introduction to Running LLMs - Locally!",
     "section": "Caution",
-    "text": "Caution\n\nThe response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.\nLLMs generate responses based on patterns in the data they were trained on, so the content they produce may no be factually accurate, so it’s important to verify the information."
+    "text": "Caution\n\nThe response may be slightly different each time you run the model. LLMs are probablistic, not deterministic.\nLLMs generate responses based on patterns in the data they were trained on, so the content they produce may not be factually accurate, so it’s important to verify the information."
   },
   {
     "objectID": "Introduction-to-LLMs.html#interacting-with-ollama-programmatically",
